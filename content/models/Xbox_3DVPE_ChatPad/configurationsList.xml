@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="716373ec-a860-4a38-84a4-9522cd2772dc" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-05 11:12:13Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="ChatPad.ngn" />
+</configurationsList:configurations>

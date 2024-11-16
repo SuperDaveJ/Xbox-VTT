@@ -1,0 +1,46 @@
+<p3:file contents="" xsi:schemaLocation=".\vpcs.xml" xmlns:xsi="http://www.w3.org/2001/XmlSchema-instance" xmlns:p3="urn:i3d:file:meta" p3:fileLocation="">
+    <p3:object p3:id="HD-DVD_1500.ngn" xmlns:p3="urn:i3d:file:meta">
+        <p3:parent>
+            <p3:class>
+                <p3:factory>VPixelCubeFactory</p3:factory>
+                <p3:dll>p3Core.dll</p3:dll>
+            </p3:class>
+        </p3:parent>
+        <p3:data>
+            <VPixelCube:vpixelcube xmlns:VPixelCube="urn:i3d:file:vpixelcube">
+                <VPixelCube:clippingCube>
+                    <VPixelCube:min>automatic</VPixelCube:min>
+                    <VPixelCube:max>automatic</VPixelCube:max>
+                </VPixelCube:clippingCube>
+                <VPixelCube:lightProcedure>diffuse+specular</VPixelCube:lightProcedure>
+                <VPixelCube:vspace>HD-DVD_1500.ngn</VPixelCube:vspace>
+                <VPixelCube:transform p3Base:rows="4" p3Base:columns="4" xmlns:p3Base="urn:i3d:file:base">
+                    <p3Base:row>
+                        <p3Base:dimensionVal>1</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                    </p3Base:row>
+                    <p3Base:row>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>1</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                    </p3Base:row>
+                    <p3Base:row>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>1</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>1</p3Base:dimensionVal>
+                    </p3Base:row>
+                    <p3Base:row>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>0</p3Base:dimensionVal>
+                        <p3Base:dimensionVal>1</p3Base:dimensionVal>
+                    </p3Base:row>
+                </VPixelCube:transform>
+            </VPixelCube:vpixelcube>
+        </p3:data>
+    </p3:object>
+</p3:file>

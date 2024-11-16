@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="8dd39ccb-67bc-4f36-9f3d-b108997046c3" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-06-26 11:13:04Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="HardDriveS.ngn" />
+</configurationsList:configurations>

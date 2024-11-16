@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="b0e0016f-bb64-4649-90f5-469b044b674b" name="VPE12 Procedure" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-19 13:24:42Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+    <configurationsList:version>4.0.222.1</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" />
+</configurationsList:configurations>

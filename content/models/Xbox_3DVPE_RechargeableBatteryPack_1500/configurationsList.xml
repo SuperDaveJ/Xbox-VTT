@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="66ef78a1-417e-4771-8813-67802f9c40ec" name="Default" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-10 11:25:47Z" />
+  <configurationsList:configuration id="60053a54-ad59-4b5b-8fdc-ba5ea7a12e12" name="Explore" description="Description of Default" version="7.0" path="60053a54-ad59-4b5b-8fdc-ba5ea7a12e12\60053a54-ad59-4b5b-8fdc-ba5ea7a12e12.zmd" modified="2012-10-10 11:31:48Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+</configurationsList:configurations>

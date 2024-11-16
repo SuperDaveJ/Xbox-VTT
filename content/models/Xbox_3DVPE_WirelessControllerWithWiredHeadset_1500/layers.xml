@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layers:Hierarchy xmlns:layers="urn:ngrain:pkm:layers">
+  <layers:metadata version="3.1" />
+  <layers:GroupedBranches />
+  <layers:RootAnchorNode nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 4" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 3" Name="Controller_LAMA1622460973" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="3" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 2" Name="Connect_Button_LAMA1209753889" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="2" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 1" Name="AA_Battery_Pack_LAMA1518258085" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="1" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 7" Name="Wireless_Controller_Light_Quadrant_3_LAMA1536311910" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="7" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 6" Name="Wireless_Controller_Light_Quadrant_2_LAMA829856901" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="6" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 5" Name="Wireless_Controller_Light_Quadrant_1_LAMA1775955104" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="5" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 4" Name="HeadSet_LAMA1186849247" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="4" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 10" Name="headset_volume_mute_volume_control_LAMA183033359" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="10" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 9" Name="headset_volume_mute_microphone_switch_button_LAMA441578728" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="9" />
+  <layers:Node nodeID="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn - 8" Name="Wireless_Controller_Light_Quadrant_4_LAMA1837844908" ngn="Xbox360_WirelessControllerWithWiredHeadset_1500.ngn" layerID="8" />
+</layers:Hierarchy>

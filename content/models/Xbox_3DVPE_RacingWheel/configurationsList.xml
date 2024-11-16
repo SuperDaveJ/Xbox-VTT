@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="1fc448ea-6b6b-4253-bd51-3ad6a3f94143" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-05 16:35:10Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="SpeedWheel.ngn" />
+</configurationsList:configurations>

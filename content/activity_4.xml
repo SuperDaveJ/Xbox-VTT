@@ -1,0 +1,875 @@
+<activityData>
+	<activityTitle>NAT Error Scenario</activityTitle>
+	<activitySubtitle>NAT Error Scenario</activitySubtitle>
+	<scenario file="3.4.png">
+		<![CDATA[<p>An Xbox 360S is connected to a Router with a hardwire connection. The customer calls because they cannot connect to Xbox LIVE.</p>]]>
+	</scenario>
+	<completion file="3.4.png">
+		<![CDATA[<p>The customer is now able to access Xbox LIVE.</p>]]>
+	</completion>
+	<activityHelp><![CDATA[
+		<p>
+		-->>>> 	INSERT HELP TEXT INTO HERE <<<<--
+		</p>]]>
+	</activityHelp>
+	<activityDetails attempts="3" showCorrect="true" baypassCorrectFeedback="true" passing="80">
+		<feedback>
+			<correct>Generic correct feedback.</correct>
+			<incorrect>Generic first incorrect feedback.</incorrect>
+			<incorrect>Generic second incorrect feedback.</incorrect>
+			<incorrect>Generic third incorrect feedback.</incorrect>
+		</feedback>
+		<scoring correctScore="1" decreaseBy="1" />
+	</activityDetails>
+	<tasks>
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>Select the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run Connection Test by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wired_connection_test_nat_error.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller_guide_button">
+					<description>Press the Guide button on your controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. The Guide button is the large button located between the "back" and "start" button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Please select the guide to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="settings">
+					<description>Select Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Please select Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="system_settings">
+					<description>Select System Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select System Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Please select System Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="network_settings">
+					<description>Select Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Network Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Please select Network Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="wired_connection">
+					<description>Select the appropriate network connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. You have a wired connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Please select the wired network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run Connection Test by selecting Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Please select Test Xbox LIVE Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="more_info">
+					<description>Select More Info to continue.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select More Info. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select More Info to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Check Router UPnP Settings</description>
+			<steps>
+				<step object="computer">
+					<description>The customer confirmed that there is only one console on the network. Select the PC to Check UPnP Settings in the Router and ensure it is enabled.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again</incorrect>
+						<incorrect>Incorrect. Select the PC to Check UPnP Settings in the Router and ensure it is enabled. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the PC Hardware to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="check_router_upnp_settings.swf">
+			<description>Check Router UPnP Settings</description>
+			<steps>
+				<step object="DATA_ENTRY">
+					<description>Enter 192.168.2.0 in the internet browser to access the router settings and then hit ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again. </incorrect>
+						<incorrect>Incorrect. Enter '192.168.2.0' as your default gateway in the internet browser to access the router settings and then hit ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Enter '192.168.2.0' as your default gateway in the internet browser to access the router settings and then hit ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="192.168.2.0" />
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Enter Username 'admin' and Password 'admin1' and then select OK.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Enter Username 'adimin' and Password in the pop-up window and then select OK.</incorrect>
+						<incorrect>That is still incorrect. Enter Username 'admin' and Password in the pop-up window and then select OK to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="admin" field="uiText1" target="done"/>
+							<entry text="admin1" field="uiText2" target="done" />
+						</actions>
+					</custom>
+				</step>
+				<step object="administration">
+					<description>Select the Adminstration tab to access UPnP Settings.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Adminstration tab to access UPnP Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Adminstration tab to access UPnP Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="enable">
+					<description>Enable UPnP Settings.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Enable UPnP Settings by selecting the 'Enabled' radio button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Enable UPnP Settings by selecting the 'Enabled' radio button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="save">
+					<description>Select Save Settings to apply the changes.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Save Settings to apply the changes. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Save Settings to apply the changes to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>	
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>UPnP is now enabled. Run Connection Test by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run connection test by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wired_connection_test_nat_error_act1.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="b_button">
+					<description>Select Back button to go back to Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Back button to go back to Network Settings. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select the Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox LIVE Connection to proceed to the next step. </incorrect>
+					</feedback>
+				</step>
+				<step object="more_info">
+					<description>Select More Info to continue.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select More Info. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select More Info to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360s_with_hardwire_connection.swf">
+			<description>DMZ Enable/Disable</description>
+			<steps>
+				<step object="computer">
+					<description>Select the PC to access router settings and enable DMZ.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again</incorrect>
+						<incorrect>Incorrect. Select the PC to access router settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the PC to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="dmz_enable_disable.swf">
+			<description>DMZ Enbable/Disable</description>
+			<steps>
+				<step object="applications_gaming">
+					<description>Locate and select the DMZ tab under Applications and Gaming.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Locate and select the DMZ under the Applications and Gaming tab. Try again. </incorrect>
+						<incorrect>That is still incorrect. Locate and select the DMZ under the Applications and Gaming tab to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="dmz">
+					<description>Locate and select the DMZ tab under Applications and Gaming.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Locate and select the DMZ under the Applications and Gaming tab. Try again. </incorrect>
+						<incorrect>That is still incorrect. Locate and select the DMZ under the Applications and Gaming tab to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="enable">
+					<description>Enable DMZ.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Enable DMZ. Try Again.</incorrect>
+						<incorrect>That is still incorrect. Enable DMZ to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="save">
+					<description>Select Save Settings to apply the changes.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Save Settings to apply the changes. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Save Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>	
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>UPnP is now enabled. Run Connection Test by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run connection test by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wired_connection_test_nat_error_act2.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="restart_test">
+					<description>Select Restart Test to test Xbox LIVE connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Restart Test. Try again.</incorrect>
+						<incorrect>That is still incorrect. Restart Test to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="more_info">
+					<description>Select More Info to continue.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select More Info. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select More Info to proceed to the next step.</incorrect>
+					</feedback>
+				</step>	
+			</steps>
+		</task>	
+		<task file="360s_with_hardwire_connection.swf">
+			<description>DMZ Disable</description>
+			<steps>
+				<step object="computer">
+					<description>Select the PC to access router settings and disable DMZ.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again</incorrect>
+						<incorrect>Incorrect. Select the PC to access router settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the PC to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="dmz_disable.swf">
+			<description>DMZ Disable</description>
+			<steps>
+				<step object="disable">
+					<description>Disable DMZ.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Disable DMZ. Try Again.</incorrect>
+						<incorrect>That is still incorrect. Disable DMZ to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="save">
+					<description>Select Save Settings to apply the changes.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Save Settings to apply the changes. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Save Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>	
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Manual IP Settings</description>
+			<steps>
+				<step object="controller">
+					<description>Select the Xbox wireless controller to manually set IP Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run connection test by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="manual_ip_settings_fail.swf">
+			<description>Manually Configure the IP Settings</description>			
+			<steps>
+				<step object="b_button">
+					<description>Select Back button to go back to the network settings and manually configure the IP Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Back button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="configure_network">
+					<description>Select Configure Network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Configure Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Configure Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="ip_settings">
+					<description>On the Basic Settings tab, select IP Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select IP Settings. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select IP Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="manual">
+					<description>Select Manual.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Manual. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Manual to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="ip_address">
+					<description>Select IP Address.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select IP Address. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select IP Address to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Run IPConfig in CMD Prompt</description>
+			<steps>
+				<step object="computer">
+					<description>Select the PC to Run IPConfig and acquire IP Address, Sub Mask, and Default Gateway.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the PC to Run IPConfig and acquire IP Address, Sub Mask, and Default gateway. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the PC to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_ip_config_cmd_prompt_ip_failure.swf">
+			<description>Manually Configure the IP Settings</description>
+			<steps>				
+				<step object="start_button">
+					<description>On your computer, click Start.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Start. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Start to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Type 'cmd' and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type 'cmd' and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 'cmd' and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="cmd"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>At the command prompt, type 'ipconfig /all' and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type 'ipconfig /all', and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 'ipconfig /all' and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="ipconfig /all" />
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Find the network connection and note the IPv4 Address on the posted note and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Note the IPv4 Address on the posted note, and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Note the IPv4 Address, and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="192.168.2.1" />
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Find the network connection and note the Subnet Mask on the posted note and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Note the Subnet Mask on the posted note, and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Note the Subnet Mask, and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="255.255.255.0" />
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Find the network connection and note the Default Gateway on the posted note and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Note the Default Gateway on the posted note, and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Note the Default Gateway, and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="192.168.2.0" />
+						</actions>
+					</custom>
+				</step>
+				<step object="close">
+                    <description>Click on the Close (X) button when complete.</description>
+                   <feedback>
+                        <correct>Incorrect. Try again.</correct>
+                        <incorrect>Incorrect. Try again.</incorrect>
+                        <incorrect>Incorrect. Close the window by selecting the 'X' button at the top right hand corner of the window. Try Again.</incorrect>
+                        <incorrect>That is still incorrect. Click the Close 'X' button to proceed.</incorrect>
+                    </feedback>
+                </step>
+			</steps>
+		</task>
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Manual IP Settings</description>
+			<steps>
+				<step object="controller">
+					<description>Select the Xbox Wireless Controller to manually assign IP address.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Xbox Wireless Controller to manually assign IP address. Try again.</incorrect>
+						<incorrect>That is still incorrect. Xbox Wireless Controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>	
+		<task file="manual_ip_settings_fail_nat_error.swf">
+			<description>Configure IP Settings on the Xbox Manually</description>
+			<steps>
+				<step object="DATA_ENTRY_SPECIAL">
+					<description>Enter the IP address you want to use for your Xbox into this page and select Done. It's important to choose an IP address on your network that is unique.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Make up a unique IP address for your Xbox 360 console. For example, add 10 to the last number of your computer's default gateway address. (For example, if your computer's address is 192.168.2.1, use 192.168.2.11 for your console's IP address.) Try again. </incorrect>
+						<incorrect>That is still incorrect. Enter 192.168.1.11 and select Done.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry target="done" mainText="192.168.2" range="2|255" />
+						</actions>
+					</custom>
+				</step>
+				<step object="subnet_mask">
+					<description>Select Subnet Mask.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Subnet Mask from the Edit IP Settings tab. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Subnet Mask from the Edit IP Settings tab to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Enter your computer's Subnet Mask, and then select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Make sure the Subnet Mask you entered is the same as the one provided, and select Done. Try again. </incorrect>
+						<incorrect>That is still incorrect. Enter your Subnet Mask; 255.255.255.0 and then select Done to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry target="done" text="255.255.255.0" />
+						</actions>
+					</custom>
+				</step>
+				<step object="gateway">
+					<description>Select Gateway.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Gateway from the Edit IP Settings tab. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Gateway from the Edit IP Settings tab to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Enter your computer's Gateway, and then select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Make sure the Gateway you entered is the same as the one provided, and select Done. Try again. </incorrect>
+						<incorrect>That is still incorrect. Enter your computer’s gateway and select Done to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry target="done" text="192.168.2.0" />
+						</actions>
+					</custom>
+				</step>	
+				<step object="close">
+					<description>Select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Done. Try again</incorrect>
+						<incorrect>That is still incorrect. Select Done to proceed to the next steps.</incorrect>
+					</feedback>
+				</step>									
+			</steps>
+		</task>		
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Add Xbox IP Address to Router Settings (Port Forwarding)</description>
+			<steps>
+				<step object="computer">
+					<description>Select the PC to access router settings and add the IP address created for Xbox.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Try again.</incorrect>
+						<incorrect>Incorrect. Select the PC to access router settings and add the IP address created for Xbox. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the PC to access router settings and add the IP address created for Xbox to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="add_xbox_ip_to_router.swf">
+			<description>Add Xbox IP Address to Router Settings (Port Forwarding)</description>
+			<steps>
+				<step object="port_range_forward">
+					<description>Locate and select the Port Range Forward.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Applications and Gaming. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Applications and Gaming to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>The port range value for the first Xbox application is 88. Type the value in the 'Start' field and press ENTER. Upon doing so the 'End' field will auto generate.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type the value in the 'Start' field and press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 88 in the 'Start' field and press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="88"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="drop_down" display="false">
+					<description>Select the Protocol drop down menu for the first Xbox application and select 'UDP'.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. From the Protocol drop down menu for the first Xbox application, select 'UDP'. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select 'UDP' from the Protocol drop down menu for the first Xbox application in order to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="drop_down" display="false">
+					<description>Select the Protocol drop down menu for the first Xbox application and select 'UDP'.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. From the Protocol drop down menu for the first Xbox application, select 'UDP'. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select 'UDP' from the Protocol drop down menu for the first Xbox application in order to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY_EXTRA_SPECIAL" display="false">
+					<description>Type the specific end number of the IP address that was created earlier for the first Xbox application and press 'Enter'.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type the specifc end number of the IP address for the first Xbox application and press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type the specifc end number of the IP address for the first Xbox application and press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="PREVIOUS_USER_INPUT"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY" display="false">
+					<description>The port range value for the second Xbox application is 3074. Type the value in the 'Start' field and press ENTER. Upon doing so the 'End' field will auto generate.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type the value in the 'Start' field and press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 3074 in the 'Start' field and press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="3074"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="drop_down" display="false">
+					<description>Select the Protocol drop down menu for the second Xbox application and select 'Both'.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. From the Protocol drop down menu for the second Xbox application, select 'Both'. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select 'UDP' from the Protocol drop down menu for the second Xbox application in order to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="drop_down" display="false">
+					<description>Select the Protocol drop down menu for the second Xbox application and select 'Both'.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. From the Protocol drop down menu for the second Xbox application, select 'Both'. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select 'UDP' from the Protocol drop down menu for the second Xbox application in order to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY_EXTRA_SPECIAL" display="false">
+					<description>Type the specific end number of the IP address that was created earlier for the second Xbox application and press 'Enter'.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type the specifc end number of the IP address for the second Xbox application and press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type the specifc end number of the IP address for the second Xbox application and press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="PREVIOUS_USER_INPUT"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY" display="false">
+					<description>The port range value for the third Xbox application is 53. Type the value in the 'Start' field and press ENTER. Upon doing so the 'End' field will auto generate.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type the value in the 'Start' field and press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 53 in the 'Start' field and press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="53"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="drop_down" display="false">
+					<description>Select the Protocol drop down menu for the third Xbox application and select 'Both'.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. From the Protocol drop down menu for the third Xbox application, select 'Both'. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select 'UDP' from the Protocol drop down menu for the third Xbox application in order to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="drop_down" display="false">
+					<description>Select the Protocol drop down menu for the third Xbox application and select 'Both'.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. From the Protocol drop down menu for the third Xbox application, select 'Both'. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select 'UDP' from the Protocol drop down menu for the third Xbox application in order to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY_EXTRA_SPECIAL" display="false">
+					<description>Type the specific end number of the IP address that was created earlier for the third Xbox application and press 'Enter'.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type the specifc end number of the IP address for the third Xbox application and press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type the specifc end number of the IP address for the third Xbox application and press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="PREVIOUS_USER_INPUT"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY" display="false">
+					<description>The port range value for the fourth Xbox application is 80. Type the value in the 'Start' field and press ENTER. Upon doing so the 'End' field will auto generate.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type the value in the 'Start' field and press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 80 in the 'Start' field and press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="80"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="drop_down" display="false">
+					<description>Select the Protocol drop down menu for the fourth Xbox application and select 'TCP'.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. From the Protocol drop down menu for the fourth Xbox application, select 'TCP'. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select 'TCP' from the Protocol drop down menu for the fourth Xbox application in order to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="drop_down" display="false">
+					<description>Select the Protocol drop down menu for the fourth Xbox application and select 'TCP'.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. From the Protocol drop down menu for the fourth Xbox application, select 'TCP'. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select 'TCP' from the Protocol drop down menu for the fourth Xbox application in order to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY_EXTRA_SPECIAL" display="false">
+					<description>Type the specific end number of the IP address that was created earlier for the fourth Xbox application and press 'Enter'.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type the specifc end number of the IP address for the fourth Xbox application and press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type the specifc end number of the IP address for the fourth Xbox application and press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="PREVIOUS_USER_INPUT"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="save">
+					<description>Select Save Settings to apply the changes.</description>
+					<feedback>
+						<correct></correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Save Settings to apply the changes. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Save Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360s_with_hardwire_connection.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>Select the Xbox wireless controller to run connection test.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wired_connection_test_nat_error_pass.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="b_button">
+					<description>Select Back button to go back to Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Back button to go back to Network Settings. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select the Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox LIVE Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+	</tasks>
+</activityData>

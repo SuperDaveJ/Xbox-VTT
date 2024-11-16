@@ -1,0 +1,633 @@
+<activityData>
+	<activityTitle>IP Failure Scenario</activityTitle>
+	<activitySubtitle>IP Failure Subtitle</activitySubtitle>
+	<scenario file="3.1.png">
+		<![CDATA[<p>An Xbox 360 is connected to a Router with a hardwire connection. The customer calls because they cannot connect to Xbox Live.</p>]]>
+	</scenario>
+	<completion file="3.1a.png">
+		<![CDATA[<p>The customer is now able to access Xbox Live.</p>]]>
+	</completion>
+	<activityHelp><![CDATA[
+		<p>
+		-->>>> 	INSERT HELP TEXT INTO HERE <<<<--
+		</p>]]>
+	</activityHelp>
+	<activityDetails attempts="3" showCorrect="true" baypassCorrectFeedback="true" passing="80">
+		<feedback>
+			<correct>Generic correct feedback.</correct>
+			<incorrect>Generic first incorrect feedback.</incorrect>
+			<incorrect>Generic second incorrect feedback.</incorrect>
+			<incorrect>Generic third incorrect feedback.</incorrect>
+		</feedback>
+		<scoring correctScore="1" decreaseBy="1" />
+	</activityDetails>
+	<tasks>
+		<task file="360_with_hardwire_connection.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>Run Connection Test by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run the Connection Test by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wired_connection_test_fail.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller_guide_button">
+					<description>Press the Guide button on your controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. The guide button is the large button located between the “back” and “start” button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Guide button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="settings">
+					<description>Select Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="system_settings">
+					<description>Select System Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select System Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select System Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="network_settings">
+					<description>Select Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Network Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Network Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="wired_connection">
+					<description>Select the appropriate network connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. You have a wired connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the wired network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox LIVE Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="more_info">
+					<description>Select More Info to continue.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select More Info. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select More Info to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="b_button">
+					<description>Select the Back button to go back to the Network Settings and Restore to Factory Defaults.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Back button on your controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Press the Back button on your controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="restore_factory_defaults_wired.swf">
+			<description>Restore to Factory Defaults</description>
+			<steps>
+				<step object="configure_network">
+					<description>Select Configure Network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Configure Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Configure Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="additional_settings">
+					<description>Select Additional Settings tab.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Additional Settings tab. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Additional Settings tab to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="restore_factory_default">
+					<description>Select Restore to Factory Defaults.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Restore Factory Defaults. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Restore to Factory Defaults to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360_with_hardwire_connection.swf">
+			<description>Restart Network Equipment</description>
+			<steps>
+				<step object="modem">
+					<description>Select the Modem or Router to restart network equipment.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Modem or Router to restart the network equipment. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select the Modem or Router to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="restart_network_equipment.swf">
+			<description>Restart Network Equipment</description>
+			<steps>
+				<step object="console_power_button">
+					<description>Select the console power button to turn off the console.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the console power button to turn off the console. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the console power button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="router_power_adapter">
+					<description>Select the router power adapter to turn off the router.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the router power adapter to turn off the router. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the router power adapter to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="modem_power_adapter">
+					<description>Select the modem power adapter to turn off the modem.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the modem power adapter to turn off the modem. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the modem power adapter to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="advance">
+					<description></description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+					</feedback>
+				</step>
+				<step object="modem_power_adapter">
+					<description>Select the power adapter of the appropriate network equipment to turn it on.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the power adapter of the modem to turn it on. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the power adapter of the modem to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="router_power_adapter">
+					<description>Power on the router.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the router power adapter to turn on the router. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the router power adapter to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="console_power_button">
+					<description>Power on the console.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the console power button to turn on the console. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the console power button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360_with_hardwire_connection.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>Run Connection Test by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run Connection Test by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wired_connection_test_fail_act1.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="b_button">
+					<description>Select the Back button to go back to Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Back button on your controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Press the Back button on your controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox LIVE Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="more_info">
+					<description>Select More Info to continue.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select More Info. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select More Info to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="b_button">
+					<description>Select Back button to go back to the network settings and manually configure the IP Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Back button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="manual_ip_settings_fail_act1.swf">
+			<description>Manually Configure the IP Settings on Xbox</description>			
+			<steps>
+				<step object="configure_network">
+					<description>Select Configure Network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Configure Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Configure Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="ip_settings">
+					<description>On the Basic Settings tab, select IP Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select IP Settings. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select IP Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="manual">
+					<description>Select Manual.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Manual. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Manual to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="ip_address">
+					<description>Select IP Address.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select IP Address. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select IP Address to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360_with_hardwire_connection.swf">
+			<description>Manually Configure the IP Settings</description>
+			<steps>
+				<step object="computer">
+					<description>The customer has a PC and can connect to the internet. Select the PC Hardware to acquire the IP Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select PC Hardware to acquire the IP Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the PC Hardware to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_ip_config_cmd_prompt_ip_failure.swf">
+			<description>Acquire Network Settings from PC</description>
+			<steps>				
+				<step object="start_button">
+					<description>On your computer, click Start.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Start. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Start to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Type 'cmd' and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type 'cmd' and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 'cmd' and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="cmd"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>At the command prompt, type 'ipconfig /all' and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type 'ipconfig /all', and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 'ipconfig /all' and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="ipconfig /all" />
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Find the network connection and note the IPv4 Address on the posted note and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Note the IPv4 Address on the posted note, and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Note the IPv4 Address, and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="192.168.2.1" />
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Find the network connection and note the Subnet Mask on the posted note and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Note the Subnet Mask on the posted note, and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Note the Subnet Mask, and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="255.255.255.0" />
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Find the network connection and note the Default Gateway on the posted note and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Note the Default Gateway on the posted note, and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Note the Default Gateway, and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="192.168.2.0" />
+						</actions>
+					</custom>
+				</step>
+				<step object="close">
+                    <description>Click on the Close (X) button when complete.</description>
+                   <feedback>
+                        <correct>Incorrect. Try again.</correct>
+                        <incorrect>Incorrect. Try again.</incorrect>
+                        <incorrect>Incorrect. Close the window by selecting the (X) button at the top right hand corner of the window. Try Again.</incorrect>
+                        <incorrect>That is still incorrect. Click the Close (X) button to proceed..</incorrect>
+                    </feedback>
+                </step>
+			</steps>
+		</task>
+		<task file="360_with_hardwire_connection.swf">
+			<description>Configure IP Settings on the Xbox Manually</description>
+			<steps>
+				<step object="controller">
+					<description>Configure IP Settings on the Xbox manually by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Configure IP Settings on the Xbox by selecting the Xbox wireless controller. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="manual_ip_settings_fail_act2.swf">
+			<description>Configure IP Settings on the Xbox Manually</description>
+			<steps>
+				<step object="DATA_ENTRY_SPECIAL">
+					<description>Enter the IP address you want to use for your Xbox into this page and select Done. It's important to choose an IP address on your network that is unique.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Make up a unique IP address for your Xbox 360 console. For this practice exercise, use 192.168.2.1. Try again. </incorrect>
+						<incorrect>That is still incorrect. Enter 192.168.2.1 and select Done.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry target="done" mainText="192.168.2" range="2|255" />
+						</actions>
+					</custom>
+				</step>
+				<step object="subnet_mask">
+					<description>Select Subnet Mask.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Subnet Mask from the Edit IP Settings tab. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Subnet Mask to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Enter your computer's Subnet Mask, and then select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Make sure the Subnet Mask you entered is the same as the one provided, and select Done. Try again. </incorrect>
+						<incorrect>That is still incorrect. Enter your Subnet Mask; 255.255.255.0 and then select Done to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry target="done" text="255.255.255.0" />
+						</actions>
+					</custom>
+				</step>
+				<step object="gateway">
+					<description>Select Gateway.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Gateway from the Edit IP Settings tab. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Gateway from the Edit IP Settings tab to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Enter your computer's Gateway, and then select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Make sure the Gateway you entered is the same as the one provided, and select Done. Try again. </incorrect>
+						<incorrect>That is still incorrect. Enter your computer’s gateway and select Done to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry target="done" text="192.168.2.0" />
+						</actions>
+					</custom>
+				</step>	
+				<step object="close">
+					<description>Select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Done. Try again</incorrect>
+						<incorrect>That is still incorrect. Select Done to proceed to the next steps.</incorrect>
+					</feedback>
+				</step>							
+				<step object="button_b">
+					<description>Select Back button to go back to Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Back button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox LIVE Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="more_info">
+					<description>Select More Info.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select More Info. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select More Info to proceed to the next step.</incorrect>
+					</feedback>
+				</step>				
+			</steps>
+		</task>
+		<task file="360_with_hardwire_connection.swf">
+			<description>Setup a Direct Connection</description>
+			<steps>
+				<step object="modem">
+					<description>Select the Modem or Router to setup a direct connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Modem or Router to setup a direct connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Modem or Router to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="setup_direct_connection.swf">
+			<description>Setup a Direct Connection</description>
+			<steps>
+				<step object="network_cable">
+					<description>Unplug the network cable connecting the console to the router by selecting the appropriate Ethernet cable.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the console network cable to un-plug it from the back of the router. Try again.</incorrect>
+						<incorrect>That is still incorrect. Unplug the network cable running from the console to the back for the router to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="network_cable">
+					<description>Unplug the network cable connecting the router to the modem by selecting the appropriate Ethernet cable.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the console network cable to un-plug it from the back of the modem. Try again.</incorrect>
+						<incorrect>That is still incorrect. Unplug the network cable running from the router to the back of the modem to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="network_cable">
+					<description>Select the correct ethernet port to setup a direct connection from the console.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the network cable to plug-in from the back of the console to the back of the modem. Try again.</incorrect>
+						<incorrect>That is still incorrect. Plug the network cable running from the console to the back of the modem to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360_with_hardwire_connection_end.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>Run Connection Test by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wired_connection_test_pass_act1.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="b_button">
+					<description>Select Back button to go back to Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Back button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox LIVE Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		
+	</tasks>
+</activityData>

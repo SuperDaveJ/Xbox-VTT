@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="42aa6523-1231-4871-8b51-df3d6ffe8412" name="VPE8 Procedure" description="Connect XBox toTV via HDMI" version="7.0" path="42aa6523-1231-4871-8b51-df3d6ffe8412\42aa6523-1231-4871-8b51-df3d6ffe8412.zmd" modified="2012-11-21 16:17:18Z" />
+  <configurationsList:configuration id="7f712be3-4b80-40e0-81b2-a3ab139e4f9b" name="VPE21 Procedure" description="Insert Hard Drive" version="7.0" path="7f712be3-4b80-40e0-81b2-a3ab139e4f9b\7f712be3-4b80-40e0-81b2-a3ab139e4f9b.zmd" modified="2012-11-21 16:18:52Z" />
+  <configurationsList:configuration id="a04dba5e-4068-4b23-8c06-9939a05939e5" name="VPE24 Procedure" description="Connecting Kinect" version="7.0" path="a04dba5e-4068-4b23-8c06-9939a05939e5\a04dba5e-4068-4b23-8c06-9939a05939e5.zmd" modified="2012-11-21 16:17:58Z" />
+  <configurationsList:configuration id="5e6a23bc-d7f8-4040-83ab-626157416a9d" name="VPE9 Procedure" description="Connect to digital audio" version="7.0" path="5e6a23bc-d7f8-4040-83ab-626157416a9d\5e6a23bc-d7f8-4040-83ab-626157416a9d.zmd" modified="2012-11-21 16:17:00Z" />
+  <configurationsList:configuration id="d979a77a-d6ce-470e-adbc-eeffb053b748" name="VPE19 Procedure" description="Connect Wireless Controller" version="7.0" path="d979a77a-d6ce-470e-adbc-eeffb053b748\d979a77a-d6ce-470e-adbc-eeffb053b748.zmd" modified="2012-11-21 16:19:11Z" />
+  <configurationsList:configuration id="273e3b5b-1c63-4609-ad99-9db192509b56" name="VPE10 Procedure" description="Connect the Console to Power" version="7.0" path="273e3b5b-1c63-4609-ad99-9db192509b56\273e3b5b-1c63-4609-ad99-9db192509b56.zmd" modified="2012-11-21 16:19:31Z" />
+  <configurationsList:configuration id="24561389-e0ac-4efc-844a-8e46213e8c48" name="Default" description="Default" version="7.0" path="24561389-e0ac-4efc-844a-8e46213e8c48\24561389-e0ac-4efc-844a-8e46213e8c48.zmd" modified="2012-08-30 11:16:55Z" />
+  <configurationsList:configuration id="1ece3a8c-0c5f-496e-9cc0-65c5fc581ca4" name="VPE22 Procedure" description="Remove Hard Drive" version="7.0" path="1ece3a8c-0c5f-496e-9cc0-65c5fc581ca4\1ece3a8c-0c5f-496e-9cc0-65c5fc581ca4.zmd" modified="2012-11-21 16:18:32Z" />
+  <configurationsList:configuration id="e0086974-e7d0-45cb-8e0b-6a5ecb6f1dbb" name="VPE31 Procedure" description="Setup a Direct Modem Connection" version="7.0" path="e0086974-e7d0-45cb-8e0b-6a5ecb6f1dbb\e0086974-e7d0-45cb-8e0b-6a5ecb6f1dbb.zmd" modified="2012-11-21 16:17:37Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox_360s_Assemblynewremodel.ngn" />
+</configurationsList:configurations>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="c857f7b0-77ee-4004-b57c-0a6636172f9d" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-11-06 12:28:02Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox360s_new.ngn" />
+</configurationsList:configurations>

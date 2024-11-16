@@ -1,0 +1,375 @@
+<activityData>
+	<activityTitle>DNS Error Scenario</activityTitle>
+	<activitySubtitle>DNS Error Subtitle</activitySubtitle>
+	<scenario file="3.3.png">
+		<![CDATA[<p>An Xbox 360 connected to a Router with a Wireless connection using the Wireless Adapter. The customer calls because they cannot connect to Xbox LIVE.</p>]]>
+	</scenario file="3.3.png">
+	<completion>
+		<![CDATA[<p>The customer can now connect to Xbox LIVE.</p>]]>
+	</completion>
+	<activityHelp><![CDATA[
+		<p>
+		-->>>> 	INSERT HELP TEXT INTO HERE <<<<--
+		</p>]]>
+	</activityHelp>
+	<activityDetails attempts="3" showCorrect="true" baypassCorrectFeedback="true" passing="80">
+		<feedback>
+			<correct>Generic correct feedback.</correct>
+			<incorrect>Generic first incorrect feedback.</incorrect>
+			<incorrect>Generic second incorrect feedback.</incorrect>
+			<incorrect>Generic third incorrect feedback.</incorrect>
+		</feedback>
+		<scoring correctScore="1" decreaseBy="1" />
+	</activityDetails>
+	<tasks>
+		<task file="360_with_wireless_adapter.swf">
+			<description>Determine Connectivity</description>
+			<steps>
+				<step object="xbox">
+					<description>Select the Wireless Adapter attached to the Xbox console to determine connectivity.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. The wireless adapter is located behind the Xbox 360 console and has two antennae. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the wireless adapter to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="dns_error.swf">
+			<description>Determine Connectivity</description>
+			<steps>
+				<step object="advance">
+					<description>The Wireless Adapter N is being used.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+					</feedback>
+				</step>
+				<step object="advance">
+					<description>The adapter is connected to the wireless Network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360_with_wireless_adapter.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>Run Connection Test by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run Connection Test by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wireless_dns_connection_test_fail_act1.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller_guide_button">
+					<description>Press the Guide button on your controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. The guide button is the large button located between the “back” and “start” button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Guide button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="settings">
+					<description>Select Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="system_settings">
+					<description>Select System Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select System Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select System Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="network_settings">
+					<description>Select Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Network Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Network Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="wireless_connection">
+					<description>Select the Wireless network connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Wireless Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Wireless Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="wireless_connection">
+					<description>Select the Xbox Wireless network connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Xbox Wireless Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Xbox Wireless Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox LIVE Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="more_info">
+					<description>Select More Info.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select More Info. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select More Info to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="back_button">
+					<description>Select the Back button to access the Network Settings to manually configure DNS settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Back button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select thte Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="configure_network">
+					<description>Select Configure Network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Configure Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Configure Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="dns_settings">
+					<description>On the Basic Settings tab, select DNS Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select DNS Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select DNS Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="manual">
+					<description>Select Manual.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Manual. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Manual to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360_with_wireless_adapter.swf">
+			<description>Acquire DNS Settings</description>
+			<steps>
+				<step object="computer">
+					<description>The customer indicated that he has PC and can successfully access Xbox.com through the internet browser. Select the PC to acquire DNS Settings and enter in manual configuration</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the PC to acquire DNS Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the PC to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_ip_config_cmd_prompt_dns.swf">
+			<description>Run IPConfig in CMD Prompt</description>
+			<steps>
+				<step object="start_button">
+					<description>On your computer, click Start.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Start. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Start to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Type 'cmd' and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type 'cmd', and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 'cmd', and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="cmd"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>At the command prompt, type 'ipconfig /all' and then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Type 'ipconfig /all', and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Type 'ipconfig /all', and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="ipconfig /all" />
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Locate the Primary DNS Server number and record it on the posted note, then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Record the Primary DNS Server number, and then press ENTER. Try again.</incorrect>
+						<incorrect>That is still incorrect. Record the Secondary DNS Server number (192.168.0.95) on the posted note, and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="192.168.0.95"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Locate the Secondary DNS Server number and record it on the posted note, then press ENTER.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Record the Secondary DNS Server number, and then press "ENTER". Try again.</incorrect>
+						<incorrect>That is still incorrect. Record the Secondary DNS Server number (192.168.0.75) on the posted note, and then press ENTER to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="192.168.0.75"/>
+						</actions>
+					</custom>
+				</step>
+				<step object="close">
+					<description>Click on the Close (X) button when complete.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Close the window by selecting the (X) button at the top right hand corner of the window. Try Again.</incorrect>
+						<incorrect>That is still incorrect. Click the Close (X) button to proceed.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360_with_wireless_adapter.swf">
+			<description>Manually enter DNS Settings</description>
+			<steps>
+				<step object="controller">
+					<description>Select the Xbox Wireless Controller to enter the DNS numbers</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Manually configure the DNS settings by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="manual_dns_settings_pass.swf">
+			<description>Manually Enter DNS Settings</description>
+			<steps>
+				<step object="primary">
+					<description>Select Primary DNS Server.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Primary DNS Server from the DNS Settings tab. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Primary DNS Server to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Enter the Primary DNS Server number and then select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Enter the Primary DNS Server number and select Done. Try again.</incorrect>
+						<incorrect>That is still incorrect. Enter the correct Primary DNS Server number and then select Done to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry target="done" text="192.168.0.95" />
+						</actions>
+					</custom>
+				</step>
+				<step object="secondary">
+					<description>Select Secondary DNS Server.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Secondary DNS Server from the DNS Settings tab. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select Secondary DNS Server to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Enter the Secondary DNS Server number and then select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Enter the Secondary DNS Server number and then select Done. Try again.</incorrect>
+						<incorrect>That is still incorrect. Enter the correct Secondary DNS Server number and then select Done to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="192.168.0.75" target="done" />
+						</actions>
+					</custom>
+				</step>
+				<step object="done">
+					<description>Select Done.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Done. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Done to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="b_button">
+					<description>Select the Back button to access Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Back button to go back to Network Settings. Try again. </incorrect>
+						<incorrect>That is still incorrect. Select the Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test LIVE Xbox Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test LIVE Xbox Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+	</tasks>
+</activityData>

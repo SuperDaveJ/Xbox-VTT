@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="d568abd9-4bd8-490f-9729-91da274d54e8" name="VPE23 Procedure" description="Connecting Kinect to Original Xbox 360 console" version="7.0" path="d568abd9-4bd8-490f-9729-91da274d54e8\d568abd9-4bd8-490f-9729-91da274d54e8.zmd" modified="2012-10-04 15:02:12Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox_360_Kinect.ngn" />
+</configurationsList:configurations>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="42aa6523-1231-4871-8b51-df3d6ffe8412" name="VPE23 Procedure" description="Connect XBox toTV via HDMI" version="7.0" path="42aa6523-1231-4871-8b51-df3d6ffe8412\42aa6523-1231-4871-8b51-df3d6ffe8412.zmd" modified="2012-08-06 10:47:38Z" />
+  <configurationsList:configuration id="7f712be3-4b80-40e0-81b2-a3ab139e4f9b" name="VPE32 Procedure" description="Insert Hard Drive" version="7.0" path="7f712be3-4b80-40e0-81b2-a3ab139e4f9b\7f712be3-4b80-40e0-81b2-a3ab139e4f9b.zmd" modified="2012-08-06 11:15:32Z" />
+  <configurationsList:configuration id="a04dba5e-4068-4b23-8c06-9939a05939e5" name="VPE35 Procedure" description="Connecting Kinect" version="7.0" path="a04dba5e-4068-4b23-8c06-9939a05939e5\a04dba5e-4068-4b23-8c06-9939a05939e5.zmd" modified="2012-08-06 11:19:43Z" />
+  <configurationsList:configuration id="df8de1f6-0689-43b4-86ce-9bbc5b8dd7d1" name="VPE42 Procedure" description="Transfer Data from Xbox 360 Hard Drive to a new Xbox 360S " version="7.0" path="df8de1f6-0689-43b4-86ce-9bbc5b8dd7d1\df8de1f6-0689-43b4-86ce-9bbc5b8dd7d1.zmd" modified="2012-08-06 11:48:06Z" />
+  <configurationsList:configuration id="5e6a23bc-d7f8-4040-83ab-626157416a9d" name="VPE24 Procedure" description="Connect to digital audio" version="7.0" path="5e6a23bc-d7f8-4040-83ab-626157416a9d\5e6a23bc-d7f8-4040-83ab-626157416a9d.zmd" modified="2012-08-06 10:49:28Z" />
+  <configurationsList:configuration id="d2a83ac6-4447-4a74-bdc4-4bdf8a7dba17" name="VPE21 Original" description="Connect XBox to Standard TV" version="7.0" path="d2a83ac6-4447-4a74-bdc4-4bdf8a7dba17\d2a83ac6-4447-4a74-bdc4-4bdf8a7dba17.zmd" modified="2012-08-06 14:48:15Z" />
+  <configurationsList:configuration id="d979a77a-d6ce-470e-adbc-eeffb053b748" name="VPE30 Procedure" description="Connect Wireless Controller" version="7.0" path="d979a77a-d6ce-470e-adbc-eeffb053b748\d979a77a-d6ce-470e-adbc-eeffb053b748.zmd" modified="2012-08-06 10:59:00Z" />
+  <configurationsList:configuration id="273e3b5b-1c63-4609-ad99-9db192509b56" name="VPE25 Procedure" description="Connect the Console to Power" version="7.0" path="273e3b5b-1c63-4609-ad99-9db192509b56\273e3b5b-1c63-4609-ad99-9db192509b56.zmd" modified="2012-08-06 10:51:48Z" />
+  <configurationsList:configuration id="109934e2-cd74-40ff-968d-851d22d47840" name="VPE22 Procedure" description="Connect XBox to HDTV" version="7.0" path="109934e2-cd74-40ff-968d-851d22d47840\109934e2-cd74-40ff-968d-851d22d47840.zmd" modified="2012-08-06 10:46:23Z" />
+  <configurationsList:configuration id="c3a98da8-af6d-4299-b152-727cc17cbb37" name="VPE31 Procedure" description="Connect Wireless Headset to Controller" version="7.0" path="c3a98da8-af6d-4299-b152-727cc17cbb37\c3a98da8-af6d-4299-b152-727cc17cbb37.zmd" modified="2012-08-06 11:08:41Z" />
+  <configurationsList:configuration id="24561389-e0ac-4efc-844a-8e46213e8c48" name="Default" description="Default" version="7.0" path="24561389-e0ac-4efc-844a-8e46213e8c48\24561389-e0ac-4efc-844a-8e46213e8c48.zmd" modified="2012-08-05 20:13:22Z" />
+  <configurationsList:configuration id="1ece3a8c-0c5f-496e-9cc0-65c5fc581ca4" name="VPE33 Procedure" description="Remove Hard Drive" version="7.0" path="1ece3a8c-0c5f-496e-9cc0-65c5fc581ca4\1ece3a8c-0c5f-496e-9cc0-65c5fc581ca4.zmd" modified="2012-08-06 11:18:34Z" />
+  <configurationsList:configuration id="e0086974-e7d0-45cb-8e0b-6a5ecb6f1dbb" name="VPE40 Procedure" description="Setup a Direct Modem Connection" version="7.0" path="e0086974-e7d0-45cb-8e0b-6a5ecb6f1dbb\e0086974-e7d0-45cb-8e0b-6a5ecb6f1dbb.zmd" modified="2012-08-06 11:25:05Z" />
+  <configurationsList:configuration id="a951697c-16e9-47df-ae5e-f5b903f417d3" name="VPE13 Procedure" description="Setup a Router Connection" version="7.0" path="a951697c-16e9-47df-ae5e-f5b903f417d3\a951697c-16e9-47df-ae5e-f5b903f417d3.zmd" modified="2012-08-06 11:32:55Z" />
+  <configurationsList:configuration id="8cf37d3e-2df5-4002-8557-0cff3fa9db19" name="VPE12 Procedure" description="Connect XBox to Standard TV" version="7.0" path="8cf37d3e-2df5-4002-8557-0cff3fa9db19\8cf37d3e-2df5-4002-8557-0cff3fa9db19.zmd" modified="2012-08-06 16:09:51Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox_360s_Assemblynewremodel.ngn" />
+</configurationsList:configurations>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="f121c25e-9c80-4c6c-a611-b53145993844" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-06-25 14:53:47Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="WirelessMicrophone.ngn" />
+</configurationsList:configurations>

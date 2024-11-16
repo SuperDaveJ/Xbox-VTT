@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="bca01a9a-8afa-47ed-84bf-970d32df881b" name="VPE27 Procedure" description="Setup a Router Connection" version="7.0" path="Default\Default.zmd" modified="2012-10-09 10:54:44Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox_360_ModemRouter.ngn" />
+</configurationsList:configurations>

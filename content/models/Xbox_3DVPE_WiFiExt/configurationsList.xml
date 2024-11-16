@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="2f22fb58-35ee-4721-a3a9-965129dcc5b4" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-09 14:24:28Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="WiFiCable.ngn" />
+</configurationsList:configurations>

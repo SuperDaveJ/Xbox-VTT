@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="106b4f52-0280-4f58-a0eb-79c85f0f6775" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-09 15:02:28Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="WirelessHeadset_1300.ngn" />
+</configurationsList:configurations>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="890e1e81-060f-4cc8-9f61-a6484c898d24" name="VPE26 Procedure" description="Setup a Direct Connection to a Gateway" version="7.0" path="890e1e81-060f-4cc8-9f61-a6484c898d24\890e1e81-060f-4cc8-9f61-a6484c898d24.zmd" modified="2012-10-09 10:20:19Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox_360_Gateway.ngn" />
+</configurationsList:configurations>

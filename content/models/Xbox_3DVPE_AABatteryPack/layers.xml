@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layers:Hierarchy xmlns:layers="urn:ngrain:pkm:layers">
+  <layers:metadata version="2.1" />
+  <layers:Nodes>
+    <layers:Node nodeID="AA Battery Pack_600.ngn - 3" Name="AA_Battery_Pack_LAMA1518258085" ngn="AA Battery Pack_600.ngn" layerID="3" />
+    <layers:Node nodeID="AA Battery Pack_600.ngn - 2" Name="AA_Alkaline_LAMA950745284__" ngn="AA Battery Pack_600.ngn" layerID="2" />
+    <layers:Node nodeID="AA Battery Pack_600.ngn - 1" Name="AA_Alkaline_LAMA2138396359_" ngn="AA Battery Pack_600.ngn" layerID="1" />
+  </layers:Nodes>
+  <layers:GroupedBranches />
+  <layers:RootAnchorNode nodeID="Branch1000000" />
+</layers:Hierarchy>

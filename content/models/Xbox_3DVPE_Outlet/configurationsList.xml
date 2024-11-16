@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="ab73eed2-1d2c-4b10-ad53-521a1b25635e" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-06-25 15:15:05Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Outlet.ngn" />
+</configurationsList:configurations>

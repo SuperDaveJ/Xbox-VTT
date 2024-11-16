@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ConversionEnvironment creationDateTime="2012-06-26T12:37:33-08:00" machineId="I3DIMENSIONS\NB0132$" userAccount="jcorrell">
+    <Parameters>
+        <Parameter name="InputFileName">
+            <![CDATA[(null)]]>
+</Parameter>
+        <Parameter name="OutputFileName">
+            <![CDATA[E:\Partners\C2\XBOX\ProblemFiles\Xbox_S_Hard_Drive_New01.3ko]]>
+</Parameter>
+        <Parameter name="Format">
+            <![CDATA[4.1 3KO]]>
+</Parameter>
+        <Parameter name="MaxModelDimension">4000</Parameter>
+        <Parameter name="MinResolution">750</Parameter>
+        <Parameter name="MaxResolution">2750</Parameter>
+        <Parameter name="OversamplingRatio">7</Parameter>
+        <Parameter name="IsMultiresolutionSet">true</Parameter>
+        <Parameter name="IsSubregionSet">false</Parameter>
+        <Parameter name="OptimizeColorStorage">false</Parameter>
+        <Parameter name="ProcessColors">true</Parameter>
+        <Parameter name="PartAxisAlignment">true</Parameter>
+        <Parameter name="CheckNormalAngle">true</Parameter>
+        <Parameter name="MaxAngleBtwNormals">110</Parameter>
+        <Parameter name="GeometryInstancing">true</Parameter>
+    </Parameters>
+    <Process>
+        <Module name="3dsmax.exe" version="12.0.0.106" />
+        <Module name="ntdll.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MSCOREE.DLL" version="4.0.31106.0 (Main.031106-0000)" />
+        <Module name="KERNEL32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="KERNELBASE.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="adlmint.dll" version="1.1.25.0" />
+        <Module name="COMCTL32.dll" version="6.10 (win7_rtm.090713-1255)" />
+        <Module name="msvcrt.dll" version="7.0.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="GDI32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="USER32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="LPK.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="USP10.dll" version="1.0626.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SHLWAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="COMDLG32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SHELL32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="NETAPI32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="netutils.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="srvcli.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="RPCRT4.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="wkscli.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WSOCK32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WS2_32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="NSI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MSVCP90.dll" version="9.00.30729.6161" />
+        <Module name="MSVCR90.dll" version="9.00.30729.6161" />
+        <Module name="ADVAPI32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="sechost.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="Secur32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SSPICLI.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="splash.dll" version="12.0.0.106" />
+        <Module name="assetmanagement.dll" error="1813" version="unknown" />
+        <Module name="maxutil.dll" version="12.0.0.106" />
+        <Module name="SHFOLDER.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MPR.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ole32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="VCOMP90.DLL" version="9.00.30729.6161 built by: QFE" />
+        <Module name="core.dll" version="12.0.0.106" />
+        <Module name="cfgmgr.dll" version="12.0.0.106" />
+        <Module name="resmgr.dll" version="12.0.0.106" />
+        <Module name="WINMM.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="AVIFIL32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MSACM32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MSVFW32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WININET.dll" version="8.00.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="urlmon.dll" version="8.00.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="OLEAUT32.dll" version="6.1.7600.16722" />
+        <Module name="CRYPT32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MSASN1.dll" version="6.1.7600.16415 (win7_gdr.090828-1615)" />
+        <Module name="iertutil.dll" version="8.00.7600.16839 (win7_gdr.110620-1602)" />
+        <Module name="acdb18.dll" version="18.0.55.0.0" />
+        <Module name="Ac1st18.dll" version="18.0.55.0.0" />
+        <Module name="AcGe18.dll" version="18.0.55.0.0" />
+        <Module name="mfc90u.dll" version="9.00.30729.6161" />
+        <Module name="MSIMG32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="mnmath.dll" version="12.0.0.106" />
+        <Module name="geom.dll" version="12.0.0.106" />
+        <Module name="d3dx9_39.dll" version="9.24.949.2307" />
+        <Module name="gfx.dll" version="12.0.0.106" />
+        <Module name="mesh.dll" version="12.0.0.106" />
+        <Module name="dxutil.dll" version="12.0.0.106" />
+        <Module name="particle.dll" version="12.0.0.106" />
+        <Module name="renderutil.dll" version="12.0.0.106" />
+        <Module name="expr.dll" version="12.0.0.106" />
+        <Module name="helpsys.dll" version="12.0.0.106" />
+        <Module name="undomgr.dll" version="12.0.0.106" />
+        <Module name="imagehlp.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="atstreeview.dll" version="12.0.0.106" />
+        <Module name="bmm.dll" version="12.0.0.106" />
+        <Module name="custdlg.dll" version="12.0.0.106" />
+        <Module name="MAXScrpt.dll" version="12.0.0.106" />
+        <Module name="manipsys.dll" version="12.0.0.106" />
+        <Module name="ParamBlk2.dll" version="12.0.0.106" />
+        <Module name="Poly.dll" version="12.0.0.106" />
+        <Module name="UNZIP32.dll" version="5.51" />
+        <Module name="zlibdll.dll" version="12.0.0.106" />
+        <Module name="menuman.dll" version="12.0.0.106" />
+        <Module name="menus.dll" version="12.0.0.106" />
+        <Module name="edmodel.dll" version="12.0.0.106" />
+        <Module name="gmi.dll" version="12.0.0.106" />
+        <Module name="dbxhost.dll" version="12.0.0.106" />
+        <Module name="ASMKERN215A.dll" version="215.0.0.4214" />
+        <Module name="ASMMATRIX215A.dll" version="215.0.0.4214" />
+        <Module name="ASMLAW215A.dll" version="215.0.0.4214" />
+        <Module name="ASMBASE215A.dll" version="215.0.0.4214" />
+        <Module name="ASMGA215A.dll" version="215.0.0.4214" />
+        <Module name="ASMSKIN215A.dll" version="215.0.0.4214" />
+        <Module name="ASMTOPT215A.dll" version="215.0.0.4214" />
+        <Module name="ASMINTR215A.dll" version="215.0.0.4214" />
+        <Module name="ASMCOVR215A.dll" version="215.0.0.4214" />
+        <Module name="ASMBOOL215A.dll" version="215.0.0.4214" />
+        <Module name="ASMEULR215A.dll" version="215.0.0.4214" />
+        <Module name="ASMCSTR215A.dll" version="215.0.0.4214" />
+        <Module name="ASMOFST215A.dll" version="215.0.0.4214" />
+        <Module name="Rm.dll" version="12.0.0.106" />
+        <Module name="tessint.dll" version="12.0.0.106" />
+        <Module name="flt.dll" version="12.0.0.106" />
+        <Module name="gup.dll" version="12.0.0.106" />
+        <Module name="imageviewers.dll" version="12.0.0.106" />
+        <Module name="maxnet.dll" version="12.0.0.106" />
+        <Module name="PackageStorage.dll" version="12.0.0.106" />
+        <Module name="viewfile.dll" version="12.0.0.106" />
+        <Module name="VERSION.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MC3.dll" version="3.15.0.0" />
+        <Module name="IPHLPAPI.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WINNSI.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="PSAPI.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="pdh.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="AdApplicationFrame.dll" version="2.1.136.0" />
+        <Module name="gdiplus.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="AdWindowsInterop.dll" version="2.1.136.0" />
+        <Module name="msvcm90.dll" version="9.00.30729.6161" />
+        <Module name="rtmax.dll" version="12.0.0.106" />
+        <Module name="Ashli.dll" version="1, 7, 9, 0" />
+        <Module name="MSVCP80.dll" version="8.00.50727.6195" />
+        <Module name="MSVCR80.dll" version="8.00.50727.6195" />
+        <Module name="mentalmillcompiler.dll" version="1.0-beta-2 45261.524.1861" />
+        <Module name="apphelp.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="AcGenral.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="sfc.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="sfc_os.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="USERENV.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="profapi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="dwmapi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="IMM32.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MSCTF.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="res1.dll" version="12.0.0.106" />
+        <Module name="res2.dll" version="12.0.0.106" />
+        <Module name="res3.dll" version="12.0.0.106" />
+        <Module name="res4.dll" version="12.0.0.106" />
+        <Module name="res5.dll" version="12.0.0.106" />
+        <Module name="res6.dll" version="12.0.0.106" />
+        <Module name="res8.dll" version="12.0.0.106" />
+        <Module name="viz.dll" version="12.0.0.106" />
+        <Module name="res7.dll" version="12.0.0.106" />
+        <Module name="res10.dll" version="12.0.0.106" />
+        <Module name="UxTheme.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MFC90ENU.DLL" version="9.00.30729.6161" />
+        <Module name="mscoreei.dll" version="4.0.30319.1 (RTMRel.030319-0100)" />
+        <Module name="mscorwks.dll" version="2.0.50727.4961 (win7RTMGDR.050727-4900)" />
+        <Module name="mscorlib.ni.dll" version="2.0.50727.4961 (win7RTMGDR.050727-4900)" />
+        <Module name="CRYPTBASE.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="mscorjit.dll" version="2.0.50727.4961 (win7RTMGDR.050727-4900)" />
+        <Module name="CRYPTSP.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="rsaenh.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="maxnetworker.dll" version="12.0.0.106" />
+        <Module name="libDLnrapi30.dll" error="1813" version="unknown" />
+        <Module name="maxnetLibrary.dll" version="12.0.0.106" />
+        <Module name="max64.task" version="12.0.0.106" />
+        <Module name="mfc90.dll" version="9.00.30729.6161" />
+        <Module name="adlmint_libFNP.dll" version="11.5.0.0 build 56285" />
+        <Module name="snmpapi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SETUPAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CFGMGR32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DEVOBJ.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="FwcWsp64.dll" version="4.0" />
+        <Module name="WINTRUST.dll" version="6.1.7600.16493 (win7_gdr.091228-1501)" />
+        <Module name="NLAapi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="mswsock.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DNSAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="winrnr.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="napinsp.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="pnrpnsp.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="wshbth.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CLBCatQ.DLL" version="2001.12.8530.16385 (win7_rtm.090713-1255)" />
+        <Module name="wbemprox.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="wbemcomn.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="RpcRtRemote.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="wbemsvc.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="fastprox.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="NTDSAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="wshtcpip.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="fwpuclnt.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="rasadhlp.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="wship6.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="icmp.Dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ntmarta.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WLDAP32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="maxsave.dll" version="12.0.0.106" />
+        <Module name="UIControls.dll" version="12.0.0.106" />
+        <Module name="MC3Res.dll" version="3.15.0.0" />
+        <Module name="msxml3.dll" version="8.110.7600.16723" />
+        <Module name="Digilib.dlz" version="12.0.0.106" />
+        <Module name="mentalray.dlz" version="12.0.0.106" />
+        <Module name="libdlbase.dll" version="0.2.0.0" />
+        <Module name="Riched32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="RICHED20.dll" version="5.31.23.1229" />
+        <Module name="base.dll" version="3.7.51.16" />
+        <Module name="contour.dll" version="3.7.51.16" />
+        <Module name="physics.dll" version="3.7.51.16" />
+        <Module name="lume.dll" version="3.7.51.16" />
+        <Module name="subsurface.dll" version="3.7.51.16" />
+        <Module name="3dsmaxshaders.dll" version="12.0.0.106" />
+        <Module name="3dsmaxhair.dll" version="12.0.0.106" />
+        <Module name="paint.dll" error="1813" version="unknown" />
+        <Module name="architectural.dll" version="3.7.51.16" />
+        <Module name="production.dll" version="3.7.51.16" />
+        <Module name="mayabase.dll" error="1813" version="unknown" />
+        <Module name="adskshaders.dll" error="1813" version="unknown" />
+        <Module name="mr_prebuilt.dll" version="3.7.51.16" />
+        <Module name="AcadBlocks.dlu" version="12.0.0.106" />
+        <Module name="ADTObjects.dlu" version="12.0.0.106" />
+        <Module name="ApplyVC.dlu" version="12.0.0.106" />
+        <Module name="BatchInsert.dlu" version="12.0.0.106" />
+        <Module name="BatchRenderUtil.dlu" version="12.0.0.106" />
+        <Module name="BitmapProxies.dlu" version="12.0.0.106" />
+        <Module name="CamTrakr.dlu" version="12.0.0.106" />
+        <Module name="cbrowser.dlu" version="12.0.0.106" />
+        <Module name="ChanInfo.dlu" version="12.0.0.106" />
+        <Module name="Collector.dlu" version="12.0.0.106" />
+        <Module name="Colliders.dlu" version="12.0.0.106" />
+        <Module name="comsrvui.dlu" version="12.0.0.106" />
+        <Module name="DisplayCulling.dlu" version="12.0.0.106" />
+        <Module name="DLsrr.dlu" version="12.0.0.106" />
+        <Module name="libdlmaxmgr.dll" version="12.0.0.106" />
+        <Module name="libdlcomponentmanager.dll" version="12.0.0.106" />
+        <Module name="libdlresmgt.dll" version="0.2.0.0" />
+        <Module name="libdlprimitives.dll" version="0.2.0.0" />
+        <Module name="libdlltutility.dll" version="12.0.0.106" />
+        <Module name="DLtonerep.dlu" version="12.0.0.106" />
+        <Module name="fbxmax.dlu" version="2009.4" />
+        <Module name="filelink.dlu" version="12.0.0.106" />
+        <Module name="composite.dll" version="12.0.0.106" />
+        <Module name="acbr18.dbx" version="18.0.55.0.0" />
+        <Module name="AcGex18.dll" version="18.0.55.0.0" />
+        <Module name="ad18asm215.dll" version="18.0.55.0.0" />
+        <Module name="ASMFCT215A.dll" version="215.0.0.4214" />
+        <Module name="ASMBLND215A.dll" version="215.0.0.4214" />
+        <Module name="ASMRBI215A.dll" version="215.0.0.4214" />
+        <Module name="ASMLOPT215A.dll" version="215.0.0.4214" />
+        <Module name="ASMCT215A.dll" version="215.0.0.4214" />
+        <Module name="ASMREM215A.dll" version="215.0.0.4214" />
+        <Module name="ASMSWP215A.dll" version="215.0.0.4214" />
+        <Module name="ASMSBOOL215A.dll" version="215.0.0.4214" />
+        <Module name="AcSceneOE.dbx" version="18.0.55.0.0" />
+        <Module name="acdb18enures.dll" version="18.0.55.0.0" />
+        <Module name="fixambient.dlu" version="12.0.0.106" />
+        <Module name="FltTools.dlu" version="12.0.0.106" />
+        <Module name="HSUtil.dlu" version="12.0.0.106" />
+        <Module name="InstanceMgr.dlu" version="12.0.0.106" />
+        <Module name="LightMap.dlu" version="12.0.0.106" />
+        <Module name="meditutils.dlu" version="12.0.0.106" />
+        <Module name="Paintbox.dlu" version="12.0.0.106" />
+        <Module name="painterInterface.dlu" version="12.0.0.106" />
+        <Module name="PanoramaGenerator.dlu" version="12.0.0.106" />
+        <Module name="ProOptimizerUtil.dlu" version="12.0.0.106" />
+        <Module name="ProOptimizer.dll" version="12.0.0.106" />
+        <Module name="propsys.dll" version="7.00.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="pseudoMap.dlu" version="12.0.0.106" />
+        <Module name="RayFX.dlu" version="12.0.0.106" />
+        <Module name="rct_utility.dlu" version="12.0.0.106" />
+        <Module name="SceneEffectLoader.dlu" version="12.0.0.106" />
+        <Module name="SceneStateUtil.dlu" version="12.0.0.106" />
+        <Module name="ShineExp.dlu" version="12.0.0.106" />
+        <Module name="SimpleFaceData.dlu" version="12.0.0.106" />
+        <Module name="SkinTools.dlu" version="12.0.0.106" />
+        <Module name="SubstMgr.dlu" version="12.0.0.106" />
+        <Module name="utility.dlu" version="12.0.0.106" />
+        <Module name="UVRemove.dlu" version="12.0.0.106" />
+        <Module name="VisualMS.dlu" version="12.0.0.106" />
+        <Module name="XmlMtlExp.dlu" version="12.0.0.106" />
+        <Module name="BlobMesh.dlo" version="12.0.0.106" />
+        <Module name="CharacterHlpObj.dlo" version="12.0.0.106" />
+        <Module name="ContainerObject.dlo" version="12.0.0.106" />
+        <Module name="crowd.dlo" version="12.0.0.106" />
+        <Module name="crowdrc.str" version="12.0.0.106" />
+        <Module name="CustAttribContainer.dlo" version="12.0.0.106" />
+        <Module name="DEI.dlo" version="12.0.0.106" />
+        <Module name="DLlights.dlo" version="12.0.0.106" />
+        <Module name="DLshadows.dlo" version="12.0.0.106" />
+        <Module name="Doors.dlo" version="12.0.0.106" />
+        <Module name="dynamics.dlo" version="12.0.0.106" />
+        <Module name="emproxy.dlo" version="12.0.0.106" />
+        <Module name="modlr18.DLL" version="18.0.55.0.0" />
+        <Module name="ASMLOP215A.dll" version="215.0.0.4214" />
+        <Module name="ASMSHL215A.dll" version="215.0.0.4214" />
+        <Module name="ASMAHL215A.dll" version="215.0.0.4214" />
+        <Module name="dcutd3e38.dll" version="38.401.0.0" />
+        <Module name="dcuthlm38.dll" version="38.401.0.0" />
+        <Module name="ASMTWK215A.dll" version="215.0.0.4214" />
+        <Module name="ASMDATAX215A.dll" version="215.0.0.4214" />
+        <Module name="ASMRB215A.dll" version="215.0.0.4214" />
+        <Module name="EPoly.dlo" version="12.0.0.106" />
+        <Module name="ExposeTransform.dlo" version="12.0.0.106" />
+        <Module name="fenest.dlo" version="12.0.0.106" />
+        <Module name="ffdmod.dlo" version="12.0.0.106" />
+        <Module name="hair.dlo" version="12.0.0.106" />
+        <Module name="havok_legacy.dlo" version="12.0.0.106" />
+        <Module name="landform.dlo" version="12.0.0.106" />
+        <Module name="LightMeter.dlo" version="12.0.0.106" />
+        <Module name="loft.dlo" version="12.0.0.106" />
+        <Module name="LuminaireHlpObj.dlo" version="12.0.0.106" />
+        <Module name="manip.dlo" version="12.0.0.106" />
+        <Module name="mrProxy.dlo" version="12.0.0.106" />
+        <Module name="omesher.dlo" version="12.0.0.106" />
+        <Module name="OpsTests.dlo" version="12.0.0.106" />
+        <Module name="orientation.dlo" version="12.0.0.106" />
+        <Module name="orientationrc.str" version="12.0.0.106" />
+        <Module name="ParticleActions.dlo" version="12.0.0.106" />
+        <Module name="PARTICLEFLOW.dll" version="12.0.0.106" />
+        <Module name="ParticleActions2.dlo" version="12.0.0.106" />
+        <Module name="ParticleActionsOrbaz.dlo" version="12.0.0.106" />
+        <Module name="ParticleChannels.dlo" version="12.0.0.106" />
+        <Module name="ParticleEngine.dlo" version="12.0.0.106" />
+        <Module name="ParticleShell.dlo" version="12.0.0.106" />
+        <Module name="particleview.dlo" version="12.0.0.106" />
+        <Module name="pathflw.dlo" version="12.0.0.106" />
+        <Module name="pathflwrc.str" version="12.0.0.106" />
+        <Module name="physsun.dlo" version="12.0.0.106" />
+        <Module name="prim.dlo" version="12.0.0.106" />
+        <Module name="ProBoolean.dlo" version="8.0.0.92" />
+        <Module name="proscatr.dlo" version="12.0.0.106" />
+        <Module name="RayFXAreaShadow.dlo" version="12.0.0.106" />
+        <Module name="rayLightTrace.dlo" version="12.0.0.106" />
+        <Module name="rct_constraints.dlo" version="12.0.0.106" />
+        <Module name="rct_registry.dll" version="12.0.0.106" />
+        <Module name="rct_dashpots.dlo" version="12.0.0.106" />
+        <Module name="rct_fmvdefmesh.dlo" version="12.0.0.106" />
+        <Module name="rct_motor.dlo" version="12.0.0.106" />
+        <Module name="rct_plane.dlo" version="12.0.0.106" />
+        <Module name="rct_spring.dlo" version="12.0.0.106" />
+        <Module name="repel.dlo" version="12.0.0.106" />
+        <Module name="repelrc.str" version="12.0.0.106" />
+        <Module name="rmproxy.dlo" version="12.0.0.106" />
+        <Module name="seek.dlo" version="12.0.0.106" />
+        <Module name="seekrc.str" version="12.0.0.106" />
+        <Module name="SkyLight.dlo" version="12.0.0.106" />
+        <Module name="speedvar.dlo" version="12.0.0.106" />
+        <Module name="speedvarrc.str" version="12.0.0.106" />
+        <Module name="Sunlight.dlo" version="12.0.0.106" />
+        <Module name="surfacearrive.dlo" version="12.0.0.106" />
+        <Module name="surfacearriverc.str" version="12.0.0.106" />
+        <Module name="surfaceflw.dlo" version="12.0.0.106" />
+        <Module name="surfaceflwrc.str" version="12.0.0.106" />
+        <Module name="update1.dlo" version="12.0.0.106" />
+        <Module name="vizwall.dlo" version="12.0.0.106" />
+        <Module name="geomimp.dll" version="12.0.0.106" />
+        <Module name="amodeler.dll" version="12.0.0.106" />
+        <Module name="wallrpl.dlo" version="12.0.0.106" />
+        <Module name="wallrplrc.str" version="12.0.0.106" />
+        <Module name="wallseek.dlo" version="12.0.0.106" />
+        <Module name="wallseekrc.str" version="12.0.0.106" />
+        <Module name="wander.dlo" version="12.0.0.106" />
+        <Module name="wanderrc.str" version="12.0.0.106" />
+        <Module name="wsm.dlo" version="12.0.0.106" />
+        <Module name="wsmrc.str" version="12.0.0.106" />
+        <Module name="bonesDef.DLM" version="12.0.0.106" />
+        <Module name="MAXComponents.DLL" version="12.0.0.106" />
+        <Module name="cloth.dlm" version="2.2.0.23" />
+        <Module name="EditPatch.dlm" version="12.0.0.106" />
+        <Module name="EditPolyMod.dlm" version="12.0.0.106" />
+        <Module name="GarmentMaker.dlm" version="1.404" />
+        <Module name="HSDS.dlm" version="12.0.0.106" />
+        <Module name="JointMorphGizmo.DLM" version="12.0.0.106" />
+        <Module name="lag.dlm" version="12.0.0.106" />
+        <Module name="LoftSpline.dlm" version="12.0.0.106" />
+        <Module name="lstess.dlm" version="12.0.0.106" />
+        <Module name="mods.dlm" version="12.0.0.106" />
+        <Module name="MorphByBone.dlm" version="12.0.0.106" />
+        <Module name="Morpher.dlm" version="12.0.0.106" />
+        <Module name="msmooth.dlm" version="12.0.0.106" />
+        <Module name="PatchSel.dlm" version="12.0.0.106" />
+        <Module name="physique.dlm" version="12.0.0.106" />
+        <Module name="physiqrc.str" version="12.0.0.106" />
+        <Module name="PointCache.dlm" version="12.0.0.106" />
+        <Module name="Projection.dlm" version="12.0.0.106" />
+        <Module name="ProjectionModTypeUVW.dlm" version="12.0.0.106" />
+        <Module name="ProOptimizerMod.dlm" version="12.0.0.106" />
+        <Module name="RayMeshIntersect.dlm" version="12.0.0.106" />
+        <Module name="RendSpline.dlm" version="12.0.0.106" />
+        <Module name="SkinWrap.dlm" version="12.0.0.106" />
+        <Module name="SolidifyPW.dlm" version="12.0.0.106" />
+        <Module name="SplineIKControl.dlm" version="12.0.0.106" />
+        <Module name="uvwunwrap.dlm" version="12.0.0.106" />
+        <Module name="vfield.dlm" version="12.0.0.106" />
+        <Module name="vfieldrc.str" version="12.0.0.106" />
+        <Module name="Welder.dlm" version="1, 0, 0, 1" />
+        <Module name="auctrl.dlc" version="12.0.0.106" />
+        <Module name="biped.dlc" version="12.0.0.106" />
+        <Module name="biprc.str" version="12.0.0.106" />
+        <Module name="block.dlc" version="12.0.0.106" />
+        <Module name="boolcntrl.dlc" version="12.0.0.106" />
+        <Module name="clip.dlc" version="12.0.0.106" />
+        <Module name="ctrl.dlc" version="12.0.0.106" />
+        <Module name="HISolver.dlc" version="12.0.0.106" />
+        <Module name="IKLimb.dlc" version="12.0.0.106" />
+        <Module name="IKSys.dlc" version="12.0.0.106" />
+        <Module name="linktmctrl.dlc" version="12.0.0.106" />
+        <Module name="mckbddev.dlc" version="12.0.0.106" />
+        <Module name="motion.dlc" version="12.0.0.106" />
+        <Module name="ProSound.dlc" version="12.0.0.106" />
+        <Module name="DSOUND.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="POWRPROF.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="reactor.dlc" version="12.0.0.106" />
+        <Module name="SplineIKSolver.dlc" version="12.0.0.106" />
+        <Module name="spring.dlc" version="12.0.0.106" />
+        <Module name="wavectrl.dlc" version="12.0.0.106" />
+        <Module name="FltImport.dli" version="12.0.0.106" />
+        <Module name="InventorImport.dli" version="12.0.0.106" />
+        <Module name="ls2max.dli" version="12.0.0.106" />
+        <Module name="lsrd.dll" version="12.0.0.106" />
+        <Module name="lprd.dll" version="12.0.0.106" />
+        <Module name="XMLio.dli" version="12.0.0.106" />
+        <Module name="ArchMat.dlt" version="12.0.0.106" />
+        <Module name="CameraMapTexture.dlt" version="12.0.0.106" />
+        <Module name="falloff2.dlt" version="12.0.0.106" />
+        <Module name="Gradient.dlt" version="12.0.0.106" />
+        <Module name="inknpaint.dlt" version="12.0.0.106" />
+        <Module name="mrMaterial.dlt" version="12.0.0.106" />
+        <Module name="mrShaders.dlt" version="12.0.0.106" />
+        <Module name="mtl.dlt" version="12.0.0.106" />
+        <Module name="mtlgen.dlt" version="12.0.0.106" />
+        <Module name="normalrender.dlt" version="12.0.0.106" />
+        <Module name="ParticleMaterials.dlt" version="12.0.0.106" />
+        <Module name="RayMtl.dlt" version="12.0.0.106" />
+        <Module name="RayTex.dlt" version="12.0.0.106" />
+        <Module name="Shellac.dlt" version="12.0.0.106" />
+        <Module name="FltExport.dle" version="12.0.0.106" />
+        <Module name="max2lp.dle" version="12.0.0.106" />
+        <Module name="lpwrt.dll" version="12.0.0.106" />
+        <Module name="blur.dlv" version="12.0.0.106" />
+        <Module name="brightCon.dlv" version="12.0.0.106" />
+        <Module name="colorBalance.dlv" version="12.0.0.106" />
+        <Module name="DOF.dlv" version="12.0.0.106" />
+        <Module name="fileOut.dlv" version="12.0.0.106" />
+        <Module name="FilmGrain.dlv" version="12.0.0.106" />
+        <Module name="LightingAnalysisOverlay.dlv" version="12.0.0.106" />
+        <Module name="motionBlur.dlv" version="12.0.0.106" />
+        <Module name="multiPassDOF.dlv" version="12.0.0.106" />
+        <Module name="multiPassMotionBlur.dlv" version="12.0.0.106" />
+        <Module name="kernel.dlk" version="12.0.0.106" />
+        <Module name="shaders.dlb" version="12.0.0.106" />
+        <Module name="adobet1.dlf" version="12.0.0.106" />
+        <Module name="truetype.dlf" version="12.0.0.106" />
+        <Module name="FireEffect.dlr" version="12.0.0.106" />
+        <Module name="rend.dlr" version="12.0.0.106" />
+        <Module name="rendvue.dlr" version="12.0.0.106" />
+        <Module name="bmp.bmi" version="12.0.0.106" />
+        <Module name="HDRI.bmi" version="12.0.0.106" />
+        <Module name="OpenEXR.bmi" version="12.0.0.106" />
+        <Module name="rgb.bmi" version="12.0.0.106" />
+        <Module name="sgi.bmi" version="12.0.0.106" />
+        <Module name="StorageAndFilter.bms" version="12.0.0.106" />
+        <Module name="alpha.flt" version="12.0.0.106" />
+        <Module name="ATSMax.gup" version="12.0.0.106" />
+        <Module name="atscore.dll" version="12.0.0.106" />
+        <Module name="atscoreui.dll" version="12.0.0.106" />
+        <Module name="AutoCamMax.gup" version="12.0.0.106" />
+        <Module name="comsrv.gup" version="12.0.0.106" />
+        <Module name="DaylightSimulation.gup" version="12.0.0.106" />
+        <Module name="DialogMonitor.gup" version="12.0.0.106" />
+        <Module name="FltGUP.gup" version="12.0.0.106" />
+        <Module name="GeometryChecker.gup" version="12.0.0.106" />
+        <Module name="JSR184Exporter.gup" version="12.0.0.106" />
+        <Module name="igame.dll" version="12.0.0.106" />
+        <Module name="AshliFX.dll" version="1, 7, 9, 0" />
+        <Module name="ManagedBootstrap.gup" version="12.0.0.106" />
+        <Module name="ManagedNetworkUtilities.gup" error="1813" version="unknown" />
+        <Module name="MapMatCol.gup" version="12.0.0.106" />
+        <Module name="MaterialExplorerView.gup" version="12.0.0.106" />
+        <Module name="mb_select.gup" version="12.0.0.106" />
+        <Module name="mrMaterialAttribs.gup" version="12.0.0.106" />
+        <Module name="ParamEditor.gup" version="12.0.0.106" />
+        <Module name="paramrollup.dll" version="12.0.0.106" />
+        <Module name="ParserLoader.gup" version="12.0.0.106" />
+        <Module name="PluginManager.gup" version="12.0.0.106" />
+        <Module name="RTStdMtl2.gup" version="12.0.0.106" />
+        <Module name="SaveVerification.gup" version="12.0.0.106" />
+        <Module name="SceneExplorerView.gup" version="12.0.0.106" />
+        <Module name="MaxCustomControls.dll" version="1.0.0.0" />
+        <Module name="ExplorerManagement.dll" error="1813" version="unknown" />
+        <Module name="System.ni.dll" version="2.0.50727.4962 (win7RTMGDR.050727-4900)" />
+        <Module name="System.Drawing.ni.dll" version="2.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="System.Windows.Forms.ni.dll" version="2.0.50727.4961 (win7RTMGDR.050727-4900)" />
+        <Module name="ManagedServices.dll" error="1813" version="unknown" />
+        <Module name="ExplorerFramework.dll" version="1.0.0.0" />
+        <Module name="SceneExplorer.dll" error="1813" version="unknown" />
+        <Module name="CSharpUtilities.dll" version="1.0.0.0" />
+        <Module name="DevExpress.XtraTreeList.v7.1.dll" version="7.1.1.0" />
+        <Module name="DevExpress.XtraEditors.v7.1.dll" version="7.1.1.0" />
+        <Module name="DevExpress.Utils.v7.1.dll" version="7.1.1.0" />
+        <Module name="WindowsBase.ni.dll" version="3.0.6920.5001 built by: Win7RTMGDR" />
+        <Module name="PresentationCore.ni.dll" version="3.0.6920.5001 built by: Win7RTMGDR" />
+        <Module name="MaxMaterialBindings.dll" error="1813" version="unknown" />
+        <Module name="DevExpress.Data.v7.1.dll" version="7.1.1.0" />
+        <Module name="MaxExplorerBindings.dll" error="1813" version="unknown" />
+        <Module name="WindowsCodecs.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="System.Xml.ni.dll" version="2.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="System.Data.ni.dll" version="2.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="System.Data.dll" version="2.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="ViewportManager.gup" version="12.0.0.106" />
+        <Module name="WalkThrough.gup" version="12.0.0.106" />
+        <Module name="samplers.dlh" version="12.0.0.106" />
+        <Module name="mrrenelem.dln" version="12.0.0.106" />
+        <Module name="projectionengine.dln" version="12.0.0.106" />
+        <Module name="renelem.dln" version="12.0.0.106" />
+        <Module name="metadata.dla" version="12.0.0.106" />
+        <Module name="grid.dls" version="12.0.0.106" />
+        <Module name="pivot.dls" version="12.0.0.106" />
+        <Module name="shape1.dls" version="12.0.0.106" />
+        <Module name="x_mesh.dls" version="12.0.0.106" />
+        <Module name="adttrans.dly" version="12.0.0.106" />
+        <Module name="maplink.dly" version="12.0.0.106" />
+        <Module name="revittrans.dly" version="12.0.0.106" />
+        <Module name="ptio64.dlu" version="4, 3, 0, 0" />
+        <Module name="GLU32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="OPENGL32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DDRAW.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DCIMAN32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="vc64_imp.dll" version="5, 0, 0, 0" />
+        <Module name="vc64_nu.dll" version="4, 2, 1, 0" />
+        <Module name="vc64_tiff.dll" error="1813" version="unknown" />
+        <Module name="vc64_zlib.dll" version="1.2.2" />
+        <Module name="vc64_jpeg.dll" error="1813" version="unknown" />
+        <Module name="vc64_nurb.dll" version="7, 3, 0, 0" />
+        <Module name="ptimp64.dli" error="1813" version="unknown" />
+        <Module name="ptexp64.dle" error="1813" version="unknown" />
+        <Module name="MaxWpfContent.dll" version="1.0.0.0" />
+        <Module name="PresentationFramework.ni.dll" version="3.0.6920.5001 built by: Win7RTMGDR" />
+        <Module name="AdWindows.dll" version="2.1.136.0" />
+        <Module name="wpfgfx_v0300.dll" version="3.0.6920.4902 built by: NetFXw7" />
+        <Module name="UndoBody.dll" version="12.0.0.106" />
+        <Module name="MaxSerialization.dll" version="1.0.0.0" />
+        <Module name="d3d10.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="d3d10core.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="dxgi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="d3dgfx.drv" version="12.0.0.106" />
+        <Module name="d3d9.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="d3d8thk.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="nvd3dumx.dll" version="8.17.12.5738" />
+        <Module name="WtsApi32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WINSTA.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="AdApplicationFrameRes.dll" version="2.1.136.0" />
+        <Module name="acadfuns.dlx" version="12.0.0.106" />
+        <Module name="gmax.dlx" version="12.0.0.106" />
+        <Module name="IMaxNet.dlx" version="12.0.0.106" />
+        <Module name="MorpherMXS.dlx" version="12.0.0.106" />
+        <Module name="MXSActiveX.dlx" version="12.0.0.106" />
+        <Module name="ATL90.DLL" version="9.00.30729.6161" />
+        <Module name="MXSAgni.dlx" version="12.0.0.106" />
+        <Module name="MXSCurveCtl.dlx" version="12.0.0.106" />
+        <Module name="mxsdotnet.dlx" version="12.0.0.106" />
+        <Module name="MFCM90U.dll" version="9.00.30729.6161" />
+        <Module name="PolyTools.dlx" error="1813" version="unknown" />
+        <Module name="MXS_Scintilla.DLL" version="12.0.0.106" />
+        <Module name="MXS_SciTE.DLL" version="12.0.0.106" />
+        <Module name="rct_havok.dll" version="12.0.0.106" />
+        <Module name="rct_havok3.dll" version="12.0.0.106" />
+        <Module name="DropboxExt64.14.dll" version="1.0.0.14" />
+        <Module name="dbghelp.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="msvcp60.dll" version="7.0.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="EhStorShell.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="cscui.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CSCDLL.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CSCAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="p4exp64.dll" version="2010.1.26.5509" />
+        <Module name="ntshrui.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="slc.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="PresentationFramework.Aero.ni.dll" version="3.0.6920.4902 built by: NetFXw7" />
+        <Module name="System.Configuration.ni.dll" version="2.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="PresentationNative_v0300.dll" version="3.0.6920.4902 built by: NetFXw7" />
+        <Module name="ATSVault7.dll" version="12.0.0.106" />
+        <Module name="atsvaultui.dll" version="12.0.0.106" />
+        <Module name="ATSVault8.dll" version="12.0.0.106" />
+        <Module name="MetalBump9.dlu" version="12.0.0.106" />
+        <Module name="DxMaterial.dlt" version="12.0.0.106" />
+        <Module name="DxDDS.bmi" version="12.0.0.106" />
+        <Module name="MaxEffectParser.dll" version="12.0.0.106" />
+        <Module name="cg.dll" version="1.5.0012" />
+        <Module name="cgD3D9.dll" version="1.5.0012" />
+        <Module name="MaxSceneParser.dll" version="12.0.0.106" />
+        <Module name="WPFCustomControls.dll" version="1.0.0.0" />
+        <Module name="PresentationUI.ni.dll" version="3.0.6920.4902 built by: NetFXw7" />
+        <Module name="mscorsec.dll" version="2.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="ncrypt.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="bcrypt.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="bcryptprimitives.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="GPAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="cryptnet.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SensApi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WINHTTP.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="webio.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="credssp.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="dhcpcsvc.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="dhcpcsvc6.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="Cabinet.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DEVRTL.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ManagedMC3.dll" version="3.15.0" />
+        <Module name="Apollo3.dlv" version="12.0.0.106" />
+        <Module name="MACFileIO.dlu" error="1813" version="unknown" />
+        <Module name="STL.DLM" version="12.0.0.106" />
+        <Module name="3dsimp.dli" version="12.0.0.106" />
+        <Module name="aiimp.dli" version="12.0.0.106" />
+        <Module name="igesimp.dli" version="12.0.0.106" />
+        <Module name="libpdx.dll" version="5.1.41.2008" />
+        <Module name="libgdx.dll" version="5.1.41.2008" />
+        <Module name="libiges.dll" version="5.1.41.2008" />
+        <Module name="liblint.dll" version="5.1.41.2008" />
+        <Module name="LandXML2Max.dli" version="12.0.0.106" />
+        <Module name="LandXML2MaxRes.dll" version="12.0.0.106" />
+        <Module name="gw_objio.dle" version="12.0.0.106" />
+        <Module name="dwgimp.dly" version="12.0.0.106" />
+        <Module name="Vault7WebServices.dll" version="7.0.0.0" />
+        <Module name="System.Web.Services.ni.dll" version="2.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="Vault8WebServices.dll" version="8.0.0.0" />
+        <Module name="CurveControl.dlu" version="12.0.0.106" />
+        <Module name="UIAutomationProvider.ni.dll" version="3.0.6920.4902 built by: NetFXw7" />
+        <Module name="Accessibility.ni.dll" version="2.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="UIAutomationTypes.ni.dll" version="3.0.6920.4902 built by: NetFXw7" />
+        <Module name="UIAutomationCore.dll" version="7.0.0.0 (win7_rtm.090713-1255)" />
+        <Module name="OLEACC.dll" version="7.0.0.0 (win7_rtm.090713-1255)" />
+        <Module name="diasymreader.dll" version="8.0.50727.4927 (NetFXspW7.050727-4900)" />
+        <Module name="tiptsf.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="StructuredQuery.dll" version="7.00.7600.16587 (win7_gdr.100504-1502)" />
+        <Module name="actxprxy.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="thumbcache.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SearchFolder.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SHDOCVW.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ieframe.DLL" version="8.00.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ieproxy.dll" version="8.00.7600.16839 (win7_gdr.110620-1602)" />
+        <Module name="explorerframe.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DUser.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DUI70.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="msls31.dll" version="3.10.349.0" />
+        <Module name="xmllite.dll" version="1.3.1000.0" />
+        <Module name="NetworkExplorer.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="LINKINFO.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="drprov.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ntlanman.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="davclnt.dll" version="6.1.7600.16723 (win7_gdr.101220-1503)" />
+        <Module name="DAVHLPR.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="PortableDeviceApi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="EhStorAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="IconCodecService.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="exp_ngrain.dll" version="4.0.0.25241" />
+        <Module name="nce.dll" version="4.0.0. 25241" />
+        <Module name="devil.dll" error="1813" version="unknown" />
+    </Process>
+</ConversionEnvironment>

@@ -1,0 +1,421 @@
+<activityData>
+	<activityTitle>Cannot Connect to a Wireless Network Scenario</activityTitle>
+	<activitySubtitle>Cannot Conncect to a Wireless Network Subtitle</activitySubtitle>
+	<scenario file="3.2.png">
+		<![CDATA[<p>An Xbox 360S is connected to a Router with a wireless connection. The customer calls because they cannot connect to Xbox LIVE.</p>]]>
+	</scenario>
+	<completion file="3.2.png">
+		<![CDATA[<p>The customer can now connect to Xbox LIVE.</p>]]>
+	</completion>
+	<activityHelp><![CDATA[
+		<p>
+		-->>>> 	INSERT HELP TEXT INTO HERE <<<<--
+		</p>]]>
+	</activityHelp>
+	<activityDetails attempts="3" showCorrect="true" baypassCorrectFeedback="true" passing="80">
+		<feedback>
+			<correct>Generic correct feedback.</correct>
+			<incorrect>Generic first incorrect feedback.</incorrect>
+			<incorrect>Generic second incorrect feedback.</incorrect>
+			<incorrect>Generic third incorrect feedback.</incorrect>
+		</feedback>
+		<scoring correctScore="1" decreaseBy="1" />
+	</activityDetails>
+	<tasks>
+		<task file="360s_with_wireless_connection.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller">
+					<description>Run Connection Test by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Run Connection Test by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="run_wireless_connection_test_fail_act1.swf">
+			<description>Run Connection Test</description>
+			<steps>
+				<step object="controller_guide_button">
+					<description>Press the Guide button on your controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. The Guide button is the large button located between the "back" and "start" button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Guide to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="settings">
+					<description>Select Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="system_settings">
+					<description>Select System Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select System Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select System Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="network_settings">
+					<description>Select Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Network Settings. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Network Settings to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="wireless_connection">
+					<description>Select the Wireless network connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Wireless Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Wireless Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="wireless_connection">
+					<description>Select the Xbox Wireless network connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Xbox Wireless Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Xbox Wireless Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="test_xbox_connection">
+					<description>Select Test Xbox LIVE Connection.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Test Xbox LIVE Connection. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Test Xbox LIVE Connection to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="more_info">
+					<description>Select More Info.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select More Info. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select More Info to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="configure_network">
+					<description>Select Configure Network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Configure Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Configure Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="advance">
+					<description>The wireless network adapter is working as multiple wireless networks are available.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360s_with_wireless_connection.swf">
+			<description>Restart Network Equipment</description>
+			<steps>
+				<step object="modem">
+					<description>Select the Modem or Router to restart network equipment.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Modem or Router to restart network equipment. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Modem or Router to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="restart_network_equipment_360s_wireless.swf">
+			<description>Restart Network Equipment</description>
+			<steps>
+				<step object="console_power_button">
+					<description>Power off the console.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the console power button to turn off the console. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the console power button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="router_power_adapter">
+					<description>Select the router power adapter to turn off the router.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the router power adapter to turn off the router. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the router power adapter to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="modem_power_adapter">
+					<description>Select the modem power adapter to turn off the modem.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the modem power adapter to turn off the modem. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the modem power adapter to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="advance">
+					<description>Wait for 30 seconds before turning on the modem.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+						<incorrect></incorrect>
+					</feedback>
+				</step>
+				<step object="modem_power_adapter">
+					<description>Select the power adapter of the appropriate network equipment to turn it on.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the power adapter of the modem to turn it on. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the power adapter of the modem to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="router_power_adapter">
+					<description>Power on the router.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the router power adapter to turn on the router. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the router power adapter to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="console_power_button">
+					<description>Power on the console.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the console power button to turn on the console. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the console power button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360s_with_wireless_connection.swf">
+			<description>Restore to Factory Defaults</description>
+			<steps>
+				<step object="controller">
+					<description>Restore to Factory Defaults by selecting the Xbox wireless controller.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Restore to factory defaults by selecting the Xbox wireless controller. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox wireless controller to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="restore_factory_defaults_wireless.swf">
+			<description>Restore to Factory Defaults</description>
+			<steps>
+				<step object="wireless_connection">
+					<description>Select the ‘Xbox’ Wireless Network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the ‘Xbox’ Wireless Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the ‘Xbox’ Wireless Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="configure_network">
+					<description>Select Configure Network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Configure Network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Configure Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="additional_settings">
+					<description>Select the Additional Settings tab.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Additional Settings tab. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Additional Settings tab to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="restore_to_factory_defaults">
+					<description>Select Restore to Factory Defaults.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Restore to Factory Defaults.</incorrect>
+						<incorrect>That is still incorrect. Select Restore to Factory Defaults to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="b_button">
+					<description>Select the Back button to return to Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Back button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="configure_wireless_network_fail_act1.swf">
+			<description>Configure Wireless Network</description>
+			<steps>
+				<step object="b_button">
+					<description>Select the Back button to return to Available Networks.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Back button. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Back button to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="ngrain_network">
+					<description>Select your ‘Xbox’ Wireless network.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select ‘Xbox’ wireless network. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select ‘Xbox’ Wireless Network to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="DATA_ENTRY">
+					<description>Enter ‘xbox1’ to and select 'Done' to connect.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Enter 'xbox1' to connect.</incorrect>
+						<incorrect>That is still incorrect. Enter 'xbox1' to connect and to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="xbox1" target="done" />
+						</actions>
+					</custom>
+				</step>
+				<step object="select_retry">
+					<description>Select Retry to acquire password from PC and enter in the Wireless Network Settings.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Retry. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Retry to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360s_with_wireless_connection.swf">
+			<description>Get Wireless Password from PC</description>
+			<steps>
+				<step object="computer">
+					<description>The Password did not work. The Customer has PC running Windows 7. Select the PC to acquire Wireless adapter password.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the PC to acquire Wireless adapter password. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the PC to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="get_wireless_network_password.swf">
+			<description>Get Wireless Password from PC</description>
+			<completion>
+				<![CDATA[<p>Make note of the SSID and Password (7gcgMHKZ) to Configure Wireless Network. Select this window to continue.</p>]]>
+			</completion>
+			<steps>
+				<step object="wireless_strength_indicator">
+					<description>Select the wireless strength indicator on the Windows 7 taskbar (bottom right corner).</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Click the wireless strength indicator on the Windows 7 taskbar. Try again.</incorrect>
+						<incorrect>That is still incorrect. Click the wireless strength indicator to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="network_name">
+					<description>Select your wireless network name.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select your wireless network name. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select your wireless network name to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="properties">
+					<description>Select Properties.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Properties. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Properties to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+				<step object="show_characters">
+					<description>Select Show Characters to display the wireless network password.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select Show Characters to display the wireless network password. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select Show Characters to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="360s_with_wireless_connection.swf">
+			<description>Configure Wireless Network</description>
+			<steps>
+				<step object="xbox">
+					<description>Select the Xbox 360S to enter the password.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Select the Xbox 360S to to enter the password. Try again.</incorrect>
+						<incorrect>That is still incorrect. Select the Xbox 360S to proceed to the next step.</incorrect>
+					</feedback>
+				</step>
+			</steps>
+		</task>
+		<task file="configure_wireless_network_pass_act1.swf">
+			<description>Configure Wireless Network</description>
+			<steps>
+				<step object="DATA_ENTRY">
+					<description>Enter the wireless network password acquired previously and select Done when you are finished.</description>
+					<feedback>
+						<correct>Incorrect. Try again.</correct>
+						<incorrect>Incorrect. Try again.</incorrect>
+						<incorrect>Incorrect. Enter the wireless network password and select Done. Try again.</incorrect>
+						<incorrect>That is still incorrect. Enter the wireless network password (7gcgMHKZ) and select Done to proceed to the next step.</incorrect>
+					</feedback>
+					<custom>
+						<actions>
+							<entry text="7gcgMHKZ" target="done" />
+						</actions>
+					</custom>
+				</step>
+			</steps>
+		</task>
+		
+
+
+	</tasks>
+</activityData>

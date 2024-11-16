@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ConversionEnvironment creationDateTime="2012-08-27T21:55:53-05:00" machineId="unknown" userAccount="Gurganus">
+    <Parameters>
+        <Parameter name="InputFileName">
+            <![CDATA[(null)]]>
+</Parameter>
+        <Parameter name="OutputFileName">
+            <![CDATA[C:\Users\Gurganus\Desktop\Xbox\00_Assemblies\Original Xbox\Xbox_360_Gateway.3ko]]>
+</Parameter>
+        <Parameter name="Format">
+            <![CDATA[4.1 3KO]]>
+</Parameter>
+        <Parameter name="MaxModelDimension">4000</Parameter>
+        <Parameter name="MinResolution">400</Parameter>
+        <Parameter name="MaxResolution">3000</Parameter>
+        <Parameter name="OversamplingRatio">7</Parameter>
+        <Parameter name="IsMultiresolutionSet">true</Parameter>
+        <Parameter name="IsSubregionSet">false</Parameter>
+        <Parameter name="OptimizeColorStorage">false</Parameter>
+        <Parameter name="ProcessColors">true</Parameter>
+        <Parameter name="PartAxisAlignment">true</Parameter>
+        <Parameter name="CheckNormalAngle">true</Parameter>
+        <Parameter name="MaxAngleBtwNormals">110</Parameter>
+        <Parameter name="GeometryInstancing">true</Parameter>
+    </Parameters>
+    <Process>
+        <Module name="pt64.exe" version="5, 0, 0, 0" />
+        <Module name="ntdll.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="kernel32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="KERNELBASE.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="vc64_nu.dll" version="4, 2, 1, 0" />
+        <Module name="vc64_tiff.dll" error="1813" version="unknown" />
+        <Module name="vc64_zlib.dll" version="1.2.2" />
+        <Module name="MSVCR80.dll" version="8.00.50727.6195" />
+        <Module name="msvcrt.dll" version="7.0.7601.17744 (win7sp1_gdr.111215-1535)" />
+        <Module name="vc64_jpeg.dll" error="1813" version="unknown" />
+        <Module name="vc64_nurb.dll" version="7, 3, 0, 0" />
+        <Module name="VERSION.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ADVAPI32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="sechost.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="RPCRT4.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="vc64_xml2.dll" error="1813" version="unknown" />
+        <Module name="WSOCK32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WS2_32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="NSI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="vc64_tbb3.dll" version="3, 0, 0, 0" />
+        <Module name="MSVCP80.dll" version="8.00.50727.6195" />
+        <Module name="vc64_tbbmalloc3.dll" version="3, 0, 0, 0" />
+        <Module name="USER32.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="GDI32.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="LPK.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="USP10.dll" version="1.0626.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="ole32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="OPENGL32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="GLU32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DDRAW.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DCIMAN32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SETUPAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CFGMGR32.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="OLEAUT32.dll" version="6.1.7601.17676" />
+        <Module name="DEVOBJ.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="dwmapi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SHELL32.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="SHLWAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="vc64_imp.dll" version="5, 0, 0, 0" />
+        <Module name="comdlg32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="COMCTL32.dll" version="6.10 (win7_rtm.090713-1255)" />
+        <Module name="MSVFW32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WINMM.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="AVIFIL32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MSACM32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="urlmon.dll" version="9.00.8112.16421 (WIN7_IE9_RTM.110308-0330)" />
+        <Module name="iertutil.dll" version="9.00.8112.16448 (WIN7_IE9_GDR.120628-1849)" />
+        <Module name="WININET.dll" version="9.00.8112.16421 (WIN7_IE9_RTM.110308-0330)" />
+        <Module name="Normaliz.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="IMM32.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MSCTF.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="UxTheme.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CRYPTBASE.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="hhctrl.ocx" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="VC64_DLG.DLL" error="1813" version="unknown" />
+        <Module name="VC64_RES.DLL" error="1813" version="unknown" />
+        <Module name="VC64_BMP.DLL" error="1813" version="unknown" />
+        <Module name="VC64_PT64.DLL" error="1813" version="unknown" />
+        <Module name="VC64_HELP.DLL" error="1813" version="unknown" />
+        <Module name="SPIN64.DLL" error="1813" version="unknown" />
+        <Module name="exontrol_propertylist64.ocx" version="1, 0, 5, 8" />
+        <Module name="COMCTL32.DLL" version="6.10 (win7_rtm.090713-1255)" />
+        <Module name="SXS.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CRYPTSP.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="rsaenh.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="RpcRtRemote.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="InnovaDSXP3_64.ocx" version="3.0.0151" />
+        <Module name="CLBCatQ.DLL" version="2001.12.8530.16385 (win7_rtm.090713-1255)" />
+        <Module name="msimg32.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="RICHED20.DLL" version="5.31.23.1230" />
+        <Module name="SspiCli.dll" version="6.1.7601.17725 (win7sp1_gdr.111116-1503)" />
+        <Module name="USERENV.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="profapi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CRYPT32.dll" version="6.1.7601.17827 (win7sp1_gdr.120423-1504)" />
+        <Module name="MSASN1.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="RICHED32.DLL" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="atig6pxx.dll" version="8.14.01.6178" />
+        <Module name="atio6axx.dll" version="6.14.10.10428" />
+        <Module name="atig6txx.dll" version="8.14.01.6178" />
+        <Module name="aticfx64.dll" version="8.17.10.1063" />
+        <Module name="atiadlxx.dll" version="6.14.10.1054" />
+        <Module name="WTSAPI32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="PSAPI.DLL" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WINTRUST.dll" version="6.1.7601.17787 (win7sp1_gdr.120229-1502)" />
+        <Module name="ui_dds_bitmap_load_save.dll" error="1813" version="unknown" />
+        <Module name="ui_file_explorer.dll" version="1, 0, 0, 1" />
+        <Module name="MFC80.DLL" version="8.00.50727.6195" />
+        <Module name="MFC80ENU.DLL" version="8.00.50727.6195" />
+        <Module name="propsys.dll" version="7.00.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ntmarta.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WLDAP32.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WindowsCodecs.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="apphelp.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DropboxExt64.14.dll" version="1.0.0.14" />
+        <Module name="dbghelp.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="msvcp60.dll" version="7.0.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="EhStorShell.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="GROOVEEX.DLL" version="14.0.6106.5000" />
+        <Module name="MSVCR90.dll" version="9.00.30729.6161" />
+        <Module name="MSVCP90.dll" version="9.00.30729.6161" />
+        <Module name="ATL90.DLL" version="9.00.30729.6161" />
+        <Module name="office.odf" error="1813" version="unknown" />
+        <Module name="GrooveIntlResource.dll" error="1813" version="unknown" />
+        <Module name="cscui.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="CSCDLL.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="CSCAPI.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="ntshrui.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="srvcli.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="slc.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ui_version_check.dll" version="1, 0, 0, 1" />
+        <Module name="ui_dcom.dll" version="1.0.0.0" />
+        <Module name="ui_document_viewers.dll" version="1, 0, 0, 1" />
+        <Module name="tiptsf.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="explorerframe.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DUser.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="DUI70.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="msls31.dll" version="3.10.349.0" />
+        <Module name="xmllite.dll" version="1.3.1001.0" />
+        <Module name="StructuredQuery.dll" version="7.00.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="Secur32.dll" version="6.1.7601.17725 (win7sp1_gdr.111116-1503)" />
+        <Module name="actxprxy.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="ieproxy.dll" version="9.00.8112.16448 (WIN7_IE9_GDR.120628-1849)" />
+        <Module name="thumbcache.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="SHDOCVW.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="ieframe.DLL" version="9.00.8112.16421 (WIN7_IE9_RTM.110308-0330)" />
+        <Module name="OLEACC.dll" version="7.0.0.0 (win7sp1_gdr.110826-1504)" />
+        <Module name="SearchFolder.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="LINKINFO.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="NetworkExplorer.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="MPR.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="IconCodecService.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="wkscli.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="netutils.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="PortableDeviceApi.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="EhStorAPI.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="samcli.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="SAMLIB.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="nce.dll" version="4.0.0. 25241" />
+        <Module name="devil.dll" error="1813" version="unknown" />
+        <Module name="drprov.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="WINSTA.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="ntlanman.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="davclnt.dll" version="6.1.7601.17514 (win7sp1_rtm.101119-1850)" />
+        <Module name="DAVHLPR.dll" version="6.1.7600.16385 (win7_rtm.090713-1255)" />
+        <Module name="exp_ngrain.dll" version="4.0.0.25241" />
+    </Process>
+</ConversionEnvironment>

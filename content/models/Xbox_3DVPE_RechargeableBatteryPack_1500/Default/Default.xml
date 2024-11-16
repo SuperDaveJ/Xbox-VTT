@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<configuration:configuration id="66ef78a1-417e-4771-8813-67802f9c40ec" name="Default" description="Description of Default" version="1.1" xmlns:configuration="urn:ngrain:pkm:configuration">
+  <configuration:metadata version="1.1" />
+  <configuration:data_reference type="label" path=".\Default\labels.xml" />
+  <configuration:data_reference type="hierarchy" path=".\Default\hierarchy.xml" />
+  <configuration:data_reference type="animations" path=".\Default\animations.xml" />
+  <configuration:data_reference type="SceneState" path=".\Default\sceneState.xml" />
+  <configuration:data_reference type="link" path=".\Default\links.xml" />
+  <configuration:data_reference type="excludedParts" path="Default\excludedParts.xml" />
+  <configuration:data_reference type="camera" path="Default\camera.xml" />
+  <configuration:data_reference type="callout" path="Default\callouts.xml" />
+  <configuration:data_reference type="guide" path="Default\guides.xml" />
+  <configuration:data_reference type="flow" path="Default\flow.xml" />
+  <configuration:data_reference type="task" path="Default\tasks.xml" />
+  <configuration:data_reference type="snapshots" path="Default\snapshots.xml" />
+  <configuration:data_reference type="mobilizerTemplate" path="Default\mobilizerTemplate.xml" />
+</configuration:configuration>

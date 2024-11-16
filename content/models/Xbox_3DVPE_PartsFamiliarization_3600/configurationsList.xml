@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="3.1" />
+  <configurationsList:configuration id="86047cdc-1214-4a3e-9549-01c5ba80255a" name="Explore" description="Parts fam" version="3.1" path="86047cdc-1214-4a3e-9549-01c5ba80255a\86047cdc-1214-4a3e-9549-01c5ba80255a.zmd" modified="2006-11-06 15:32:51Z" />
+  <configurationsList:configuration id="fdf3ff97-6079-4958-aea1-64d008d36576" name="VPE" description="VPE" version="3.1" path="fdf3ff97-6079-4958-aea1-64d008d36576\fdf3ff97-6079-4958-aea1-64d008d36576.zmd" modified="2006-09-28 16:20:55Z" />
+  <configurationsList:model file="Xbox_3DVPE_CablePartsFam_3600.ngn" />
+</configurationsList:configurations>

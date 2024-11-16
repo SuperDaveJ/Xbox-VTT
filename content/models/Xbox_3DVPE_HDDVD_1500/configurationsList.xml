@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="a9a86174-c579-4fdf-ae83-3b4b3e07315e" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-10 12:54:25Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="HD-DVD_1500.ngn" />
+</configurationsList:configurations>

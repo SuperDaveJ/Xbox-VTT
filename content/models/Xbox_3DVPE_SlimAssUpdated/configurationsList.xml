@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="df8de1f6-0689-43b4-86ce-9bbc5b8dd7d1" name="VPE33 Procedure" description="Transfer Data from Xbox 360 Hard Drive to a new Xbox 360S " version="7.0" path="df8de1f6-0689-43b4-86ce-9bbc5b8dd7d1\df8de1f6-0689-43b4-86ce-9bbc5b8dd7d1.zmd" modified="2012-10-09 10:16:28Z" />
+  <configurationsList:configuration id="8cf37d3e-2df5-4002-8557-0cff3fa9db19" name="VPE6 Procedure" description="Connect XBox to Standard TV" version="7.0" path="8cf37d3e-2df5-4002-8557-0cff3fa9db19\8cf37d3e-2df5-4002-8557-0cff3fa9db19.zmd" modified="2012-10-09 10:18:26Z" />
+  <configurationsList:configuration id="109934e2-cd74-40ff-968d-851d22d47840" name="VPE7 Procedure" description="Connect XBox to HDTV" version="7.0" path="109934e2-cd74-40ff-968d-851d22d47840\109934e2-cd74-40ff-968d-851d22d47840.zmd" modified="2012-10-09 10:11:23Z" />
+  <configurationsList:configuration id="24561389-e0ac-4efc-844a-8e46213e8c48" name="Default" description="Default" version="7.0" path="24561389-e0ac-4efc-844a-8e46213e8c48\24561389-e0ac-4efc-844a-8e46213e8c48.zmd" modified="2012-09-16 21:41:12Z" />
+  <configurationsList:configuration id="c3a98da8-af6d-4299-b152-727cc17cbb37" name="VPE20 Procedure" description="Connect Wireless Headset to Controller" version="7.0" path="c3a98da8-af6d-4299-b152-727cc17cbb37\c3a98da8-af6d-4299-b152-727cc17cbb37.zmd" modified="2012-10-09 10:13:39Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox_360s_Assembly_updated_2.ngn" />
+</configurationsList:configurations>

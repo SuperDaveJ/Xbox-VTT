@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<lama:LamaMapping xmlns:lama="urn:ngrain:ps:lama">
+  <lama:metadata version="4.0" />
+  <lama:mappings>
+    <lama:mapping layerID="14" LamaID="168563243" />
+    <lama:mapping layerID="8" LamaID="1738856414" />
+    <lama:mapping layerID="2" LamaID="1553362915" />
+    <lama:mapping layerID="3" LamaID="579315927" />
+    <lama:mapping layerID="17" LamaID="1101235852" />
+    <lama:mapping layerID="6" LamaID="708832562" />
+    <lama:mapping layerID="7" LamaID="1947193411" />
+    <lama:mapping layerID="4" LamaID="947693915" />
+    <lama:mapping layerID="15" LamaID="1351928406" />
+    <lama:mapping layerID="19" LamaID="1941555540" />
+    <lama:mapping layerID="11" LamaID="1807775546" />
+    <lama:mapping layerID="18" LamaID="707468341" />
+    <lama:mapping layerID="10" LamaID="214480553" />
+    <lama:mapping layerID="13" LamaID="840364161" />
+  </lama:mappings>
+</lama:LamaMapping>

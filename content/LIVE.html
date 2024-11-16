@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0021)http://www.ngrain.com -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Xbox Support Portal - LIVE Practice</title>
+	
+	<link href="css/main_style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" language="javascript" src="javascript/main_javascript.js"></script>
+	<script language="javascript" src="javascript/ControlLoader.js"></script>
+	<script language="javascript" src="javascript/FlashModeButtonsControl.js"></script>
+	<script language="javascript" src="javascript/parts.js"></script>
+	<script type="text/javascript" src="scripts/swfobject_modified.js"></script>
+</head>
+<body onLoad="Load()" onResize="ResizeParent()" class="live">
+	<div class="home_link"><a href="../index.html"><img src="images/spacer.gif" alt="Home" width="70" height="68" border="0"></a></div>
+	<table width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td style="height: 101px" align="left" valign="top">
+			<!-- navigation table start -->
+			<table class="navigation" width="100%" style="height: 101px" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td align="left" valign="top" class="tabs_bkg_4" style="">
+					<table width="100%" style="height: 101px" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td colspan="10" valign="middle">
+							<div class="maintitle">Support Portal <span style="font-size:13px"><br />
+							Setup of the Xbox 360 Console, 360S Console, Kinect and Accessories</span></div>
+							</td>
+						</tr>
+						<tr>
+							<td width="204" height="22">&nbsp;</td>
+							<td width="125" align="center" valign="middle"><a href="explore.html">Explore</a></td>
+							<td width="22">&nbsp;</td>
+							<td width="135" align="center" valign="middle"><a href="observe.html">Observe</a></td>
+							<td width="22">&nbsp;</td>
+							<td width="141" align="center" valign="middle"><a href="practice.html">Hardware Practice</a></td>
+							<td width="23">&nbsp;</td>
+							<td width="151" align="center" valign="middle">LIVE Practice</td>
+							<td align="right"></td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			<!-- navigation table stop -->
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top" style="padding:8px">
+			<table width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="247" align="left" valign="top" class="tablestas" style="padding-bottom: 8px">
+					<!-- left part table start -->
+					<table class="lft_tbl_explore" width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td height="10" align="left" valign="top" class="instructions">
+							<p>Here you will practice LIVE troubleshooting.</p>
+							<p>Select an exercise from the list below and follow the instructions 
+							provided for the steps shown.</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="top_title">Virtual Practice Exercise</td>
+						</tr>
+						<tr>
+							<td>
+							<div id="tree" class="parts_tree" style="overflow:hidden;">
+
+							<!-- tree start -->
+							<table border="0" cellpadding="0" cellspacing="0" width="100%" style="height:100%">
+							<!-- put links to load LIVE PRACTICE FLASH HERE  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+								<tr>
+									<td valign="top">
+									<div class="title" style="background-color: #57A822; background-image: url('images/Minus.gif'); color: #FFF;">LIVE Virtual Practice</div>
+									<div class="item"><a href="javascript:LaunchFlashActivity('activity_1.xml', false);">IP Failure Scenario: Xbox 360 connected to a Router through hardwire connection.</a></div>
+									<div class="item"><a href="javascript:LaunchFlashActivity('activity_2.xml', false);">Cannot Connect to Wireless Network Scenario: Xbox 360S connected to a Router through wireless connection.</a></div>
+									<div class="item"><a href="javascript:LaunchFlashActivity('activity_3.xml', false);">DNS Error Scenario:  Xbox 360 connected to a Router through Wireless connection using a wireless adapter.</a></div>
+									<div class="item"><a href="javascript:LaunchFlashActivity('activity_4.xml', false);">NAT Error Scenario: Xbox 360S connected to a Router through hardwire connection.</a></div>
+									</td>
+								</tr>
+							</table>
+							<!-- tree stop -->
+							</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="bottom_bar">&nbsp;</td>
+						</tr>
+					</table>
+					<!-- left part table stop -->
+					</td>
+					<td width="10" align="left" valign="top">
+					<!-- Flash buttons table start -->
+
+					<!-- Flash buttons table stop -->
+					</td>
+					
+					<!-- right part table start -->
+					<td align="center" valign="middle" style="border-top:1px solid #DADADA; border-right:1px solid #DADADA; border-bottom:1px solid #DADADA; border-left:1px solid #DADADA; background-color:#ffffff">
+
+					<table width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td class="main_mobilizer_no_controls" id="main_mobilizer" align="middle">
+							<div id="FlashHere" style="background:none;"></div>
+							</td>
+						</tr>
+					</table>
+
+					</td>
+					<!-- right part table stop -->
+					
+					
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+	<div id="ControlDisabler" style="visibility:hidden; filter:alpha(opacity=60); position:absolute; top:0; left:20; width:225; height:30; background-color:white;"></div>
+	<div id="TabDisabler" style="visibility:hidden; position:absolute; top:80; left:200; width:445; height:17; background-image: url(../images/tabs_3.png)"></div>
+	<div id="ObserveLinkDisabler" style="visibility:hidden; filter:alpha(opacity=0); position:absolute; top:135; left:118; width:50; height:15; background-color:white;"></div>
+</body>
+<iframe id="loadingDiv" name="loadingDiv" src="LoadingImage.html" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" style="position: absolute; left: 325px; top: 118px; width: 118; height: 106;"></iframe>
+</html>
+
+<script language="javascript" type="text/javascript">
+var flashvars = {};
+	flashvars.debug = false;
+var params = {
+	menu: "false",
+	
+	allowFullscreen: "true",
+	allowScriptAccess: "always",
+	wmode: "transparent"
+	//level: "-1"
+};
+var attributes = {
+	id:"xboxActivity"
+};
+	
+function LaunchFlashActivity( which, score ){
+	
+	document.getElementById("main_mobilizer").innerHTML = "<div id=\"FlashHere\"><h3>We\'re Sorry!</h3><p>It appears that you do not have Adobe Flash currently installed.<br>Please install flash and then try again.</p></div>";
+	flashvars.file = which;
+	flashvars.score = score;
+	swfobject.embedSWF( "activity_engine.swf", "FlashHere", "740", "520", "10.0.0", "expressInstall.swf", flashvars, params, attributes );
+	
+	var elem = document.getElementById("loadingDiv");		
+	elem.style.display = "none";
+}	
+</script>
+
+<script language="javascript">
+
+var loading = true;
+
+// This is used to allow the loadingdiv to get parsed
+function SetLoading(){
+  
+	try{
+		DisposeModeButtons();
+		document.getElementById('loadingDiv').contentWindow.SetBackColor("rgb(231,231,231)");
+		document.getElementById('loadingDiv').contentWindow.SetText("<font face='arial'><h2>LIVE Virtual Practice Exercise</h2><p>In this section, you will practice providing a solution to Xbox LIVE Connection Errors.<br />Select a LIVE Practice Exercise from the list.</p></font>");
+		TaskHideAllSteps();  
+	}
+	catch(exp){
+		self.setTimeout("SetLoading()", 100);    
+	}
+}
+
+function Load(){
+	
+	loading = true;
+	document.getElementById('loadingDiv').src = "LoadingImage.html";
+	ResizeParent();
+	document.getElementById('FlashModeButtons').attachEvent("FSCommand", ModeButtonsFSCommand);  
+}
+
+function ResizeParent(){
+	
+	document.getElementById('loadingdiv').style.height = 515;
+	document.getElementById('loadingdiv').style.width = 410;
+  
+	if(document.body.clientWidth - 350 > 410){
+    
+		document.getElementById('loadingdiv').style.width = document.body.clientWidth - 341;
+	}
+	if(document.body.clientHeight - 85 > 555){
+		
+		document.getElementById('loadingdiv').style.height = document.body.clientHeight - 135;
+	}
+
+	var height = 285;
+	ControlDisabler.style.height = height;
+	ControlDisabler.style.top = 245;
+}
+</script>

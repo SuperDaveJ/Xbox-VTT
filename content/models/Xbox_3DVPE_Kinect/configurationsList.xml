@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="800bb07c-c038-4085-b3f2-7fa032e9bf5f" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-09 14:17:33Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="kinectNew.ngn" />
+</configurationsList:configurations>

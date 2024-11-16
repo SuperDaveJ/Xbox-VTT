@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<layers:Hierarchy xmlns:layers="urn:ngrain:pkm:layers">
+  <layers:metadata version="1.1" />
+  <layers:Nodes>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 1" Name="A_Button_LAMA2011601456" ngn="UniversalMediaRemote_1000.ngn" layerID="1">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 2" Name="Alpha_Numeric_Button_LAMA1547013885" ngn="UniversalMediaRemote_1000.ngn" layerID="2">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 3" Name="B_Button_LAMA2095657173" ngn="UniversalMediaRemote_1000.ngn" layerID="3">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 4" Name="Back_Button_LAMA1253378792" ngn="UniversalMediaRemote_1000.ngn" layerID="4">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 5" Name="CH_PG_Button_LAMA1504564169" ngn="UniversalMediaRemote_1000.ngn" layerID="5">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 6" Name="Clear_Button_LAMA185512695" ngn="UniversalMediaRemote_1000.ngn" layerID="6">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 7" Name="DVD_Menu_Button_LAMA1008251730" ngn="UniversalMediaRemote_1000.ngn" layerID="7">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 8" Name="Display_Button_LAMA1541406636" ngn="UniversalMediaRemote_1000.ngn" layerID="8">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 9" Name="Enter_Button_LAMA215284186" ngn="UniversalMediaRemote_1000.ngn" layerID="9">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 10" Name="Info_Button_LAMA554650639" ngn="UniversalMediaRemote_1000.ngn" layerID="10">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 11" Name="Mute_Button_LAMA34876148" ngn="UniversalMediaRemote_1000.ngn" layerID="11">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 12" Name="Ok_Button_LAMA48124233" ngn="UniversalMediaRemote_1000.ngn" layerID="12">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 13" Name="On_Off_Button_LAMA778067572" ngn="UniversalMediaRemote_1000.ngn" layerID="13">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 14" Name="Open_Close_Button_LAMA1792658379" ngn="UniversalMediaRemote_1000.ngn" layerID="14">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 15" Name="Record_Button_LAMA2089090531" ngn="UniversalMediaRemote_1000.ngn" layerID="15">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 16" Name="Start_Button_LAMA292653054" ngn="UniversalMediaRemote_1000.ngn" layerID="16">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 17" Name="TV_Button_LAMA87820875" ngn="UniversalMediaRemote_1000.ngn" layerID="17">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 18" Name="Title_Button_LAMA320479009" ngn="UniversalMediaRemote_1000.ngn" layerID="18">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 19" Name="Universal_Media_Remote_LAMA1950771245" ngn="UniversalMediaRemote_1000.ngn" layerID="19">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 20" Name="Volume_Button_LAMA181993598" ngn="UniversalMediaRemote_1000.ngn" layerID="20">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 21" Name="X_Button_LAMA959663223" ngn="UniversalMediaRemote_1000.ngn" layerID="21">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="UniversalMediaRemote_1000.ngn - 22" Name="Y_Button_LAMA1630255450" ngn="UniversalMediaRemote_1000.ngn" layerID="22">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+  </layers:Nodes>
+  <layers:LockedAssemblies>
+    <layers:LockedAssembly groupID="1C324FE9-2BD9-4860-81DC-95B4B9D613DE" Description="Main Locked Assembly">
+      <layers:LockedNodes>
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 1" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 2" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 3" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 4" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 5" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 6" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 7" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 8" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 9" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 10" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 11" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 12" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 13" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 14" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 15" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 16" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 17" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 18" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 19" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 20" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 21" />
+        <layers:LockedNode nodeID="UniversalMediaRemote_1000.ngn - 22" />
+      </layers:LockedNodes>
+    </layers:LockedAssembly>
+  </layers:LockedAssemblies>
+</layers:Hierarchy>

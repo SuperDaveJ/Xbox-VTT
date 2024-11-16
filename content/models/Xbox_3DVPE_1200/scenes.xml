@@ -1,0 +1,15 @@
+<p3:file contents="" xsi:schemaLocation=".\scenes.xml" xmlns:xsi="http://www.w3.org/2001/XmlSchema-instance" xmlns:p3="urn:i3d:file:meta">
+    <p3:object xmlns:p3="urn:i3d:file:meta">
+        <p3:parent>
+            <p3:class>
+                <p3:factory>SceneFactory</p3:factory>
+                <p3:dll>p3Core.dll</p3:dll>
+            </p3:class>
+        </p3:parent>
+        <p3:data>
+            <p3Scene:scene xmlns:p3Scene="urn:i3d:file:scene">
+                <p3:object p3:ref="Xbox_3DVPE_1200.ngn" xlink:href="vpcs.xml" xmlns:xlink="urn:yomama" />
+            </p3Scene:scene>
+        </p3:data>
+    </p3:object>
+</p3:file>

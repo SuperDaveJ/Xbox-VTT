@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layers:Hierarchy xmlns:layers="urn:ngrain:pkm:layers">
+  <layers:metadata version="1.1" />
+  <layers:Nodes>
+    <layers:Node nodeID="XboxLiveVision_1200.ngn - 1" Name="Vision_Cam_Camera" ngn="XboxLiveVision_1200.ngn" layerID="1">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+  </layers:Nodes>
+  <layers:LockedAssemblies>
+    <layers:LockedAssembly groupID="1C324FE9-2BD9-4860-81DC-95B4B9D613DE" Description="Main Locked Assembly">
+      <layers:LockedNodes>
+        <layers:LockedNode nodeID="XboxLiveVision_1200.ngn - 1" />
+      </layers:LockedNodes>
+    </layers:LockedAssembly>
+  </layers:LockedAssemblies>
+</layers:Hierarchy>

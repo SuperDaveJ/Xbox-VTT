@@ -1,0 +1,386 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0021)http://www.ngrain.com -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Xbox Support Portal - Explore</title>
+	<link href="css/main_style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" language="javascript" src="javascript/main_javascript.js"></script>
+	<script language="javascript" src="javascript/PartsTree.js"></script>
+	<script language="javascript" src="javascript/ControlLoader.js"></script>
+	<script language="javascript" src="javascript/FlashModeButtonsControl.js"></script>
+	<script language="javascript" src="javascript/jquery-1.8.2.js"></script>
+	<script language="javascript" src="javascript/jquery-ui.js"></script>
+	<script type="text/javascript">
+		function initMenu() {
+			$(function() {        
+				$( "#PartsTree" ).accordion({            
+					collapsible: "true",
+					heightStyle: "content"		
+				});    
+			});
+		}
+	</script>
+</head>
+<body onload="StartUp()" onresize="Resize()">
+  <div class="home_link">
+    <a href="../index.html">
+      <img src="images/spacer.gif" alt="Home" width="70" height="68" border="0"></a></div>
+  <table width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td style="height: 101px" align="left" valign="top">
+        <!-- navigation table start -->
+        <table class="navigation" width="100%" style="height: 101px" border="0" cellpadding="0"
+          cellspacing="0">
+          <tr>
+            <td align="left" valign="top" class="tabs_bkg_1" style="">
+              <table width="100%" style="height: 101px" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td colspan="10" valign="middle">
+                    <div class="maintitle">Support Portal <span style="font-size: 13px"><br />
+                      Setup of the Xbox 360 Console, 360S Console, Kinect and Accessories</span></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="204" height="22">&nbsp;</td>
+                  <td width="125" align="center" valign="middle">Explore</td>
+                  <td width="22">&nbsp;</td>
+                  <td width="135" align="center" valign="middle"><a href="observe.html">Observe</a></td>
+                  <td width="22">&nbsp;</td>
+                  <td width="141" align="center" valign="middle"><a href="practice.html">Hardware Practice</a></td>
+                  <td width="23">&nbsp;</td>
+				  <td width="151" align="center" valign="middle"><a href="LIVE.html">LIVE Practice</a></td>
+                  <td align="right"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- navigation table stop -->
+      </td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="padding: 8px">
+        <table width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="247" align="left" valign="top" class="tablestas">
+              <!-- left part table start -->
+              <table class="lft_tbl_explore" width="100%" style="height: 100%" border="0" cellpadding="0"
+                cellspacing="0">
+                <tr>
+                  <td height="10" align="left" valign="top" class="instructions">
+                    <p>Here you can familiarize yourself yourself with the Xbox 360, 360S Console, Kinect and its accessories.  To load a model click on a link below.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="top_title">Xbox and Accessories</td>
+                </tr>
+                <tr>
+                  <td>
+		
+                    <div id="PartsTree" class="parts_tree">
+                      
+						<!-- Xbox 360 -->
+						<div class="title">Xbox 360</div>
+						<div class="itemlist">
+							<div class="item"><a id="XboxHDMILink" onclick="Select('XboxHDMILink');" href="javascript:LoadModel('models/Xbox_3DVPE_XboxHDMI/xboxhdmi.dko');">Xbox 360 (HDMI)</a></div>
+							<div class="item"><a id="ConsoleCablesLink" onclick="Select('ConsoleCablesLink');" href="javascript:LoadModel('models/Xbox_3DVPE_Xbox/Xbox360.dko');">Xbox 360 (Non-HDMI)</a></div>
+							<div class="item"><a id="PowerSupplyLink" onclick="Select('PowerSupplyLink');" href="javascript:LoadModel('models/Xbox_3DVPE_PowerSupply/PowerSupply.dko');">Power Supply</a></div>
+							<div class="item"><a id="HardDriveLink" onclick="Select('HardDriveLink');" href="javascript:LoadModel('models/Xbox_3DVPE_HardDrive_2000/HardDrive_2000.dko');">Hard Drive</a></div>
+						</div>
+
+						<!-- Xbox 360S -->
+						<div class="title">Xbox 360S</div>
+						<div class="itemlist">
+							<div class="item"><a id="XboxSLink" onclick="Select('XboxSLink');" href="javascript:LoadModel('models/Xbox_3DVPE_XboxS/XboxS.dko');">Xbox 360S</a></div>
+							<div class="item"><a id="SPowerSupplyLink" onclick="Select('SPowerSupplyLink');" href="javascript:LoadModel('models/Xbox_3DVPE_PowerSupplyS/PowerSupplyS.dko');">Power Supply</a></div> 
+							<div class="item"><a id="SHardDriveLink" onclick="Select('SHardDriveLink');" href="javascript:LoadModel('models/Xbox_3DVPE_HardDriveS/HardDriveS.dko');">Hard Drive</a></div> 
+						</div>
+
+						<!-- Kinect -->
+						<div class="title">Kinect</div>	
+						<div class="itemlist">			  
+							<div class="item"><a id="KinectLink" onclick="Select('KinectLink');" href="javascript:LoadModel('models/Xbox_3DVPE_Kinect/Kinect.dko');">Kinect</a></div>
+							<div class="item"><a id="PowerAdapterLink" onclick="Select('PowerAdapterLink');" href="javascript:LoadModel('models/Xbox_3DVPE_PowerAdapterUS/PowerAdapterUS.dko');">Power Adapter (Y Adapter)</a></div>
+							<div class="item"><a id="PowerAdapterUKLink" onclick="Select('PowerAdapterUKLink');" href="javascript:LoadModel('models/Xbox_3DVPE_PowerAdapterUK/PowerAdapterUK.dko');">Power Adapter (Y Adapter) UK</a></div>
+							<div class="item"><a id="PowerAdapterEULink" onclick="Select('PowerAdapterEULink');" href="javascript:LoadModel('models/Xbox_3DVPE_PowerAdapterEU/adapterEU.dko');">Power Adapter (Y Adapter) Europe</a></div>
+							<div class="item"><a id="WiFiExtLink" onclick="Select('WiFiExtLink');" href="javascript:LoadModel('models/Xbox_3DVPE_WiFiExt/WiFiCable.dko');">Wi-Fi Extension Cable</a></div>
+						</div>
+						
+						<!-- Accessories -->
+						<div class="title">Accessories</div>
+						<div class="itemlist">
+							<div class="item"><a id="RechargeableBatteryPackLink" onclick="Select('RechargeableBatteryPackLink');" href="javascript:LoadModel('models/Xbox_3DVPE_RechargeableBatteryPack_1500/RechargeableBatteryPack_1500.dko');">Rechargeable Battery Pack</a></div>						
+							<div class="item"><a id="AABatteryPackLink" onclick="Select('AABatteryPackLink');" href="javascript:LoadModel('models/Xbox_3DVPE_AABatteryPack/AA Battery Pack_600.dko');">AA Battery Pack</a></div>					  
+							<div class="item"><a id="QuickChargeKitLink" onclick="Select('QuickChargeKitLink');" href="javascript:LoadModel('models/Xbox_3DVPE_QuickChargeKit_1000/QuickChargeKit_1000.dko');">Charge Kit (Quick Charge Kit)</a></div>						  
+							<div class="item"><a id="BigButtonControllerLink" onclick="Select('BigButtonControllerLink');" href="javascript:LoadModel('models/Xbox_3DVPE_BigButtonController/BigButtonController.dko');">Big Button Controller</a></div>						  
+							<div class="item"><a id="WirelessControllerLink" onclick="Select('WirelessControllerLink');" href="javascript:LoadModel('models/Xbox_3DVPE_WirelessController_1000/Xbox360_WirelessController_WithButtons_1000.dko');">Wireless Controller</a></div>
+							<div class="item"><a id="WiredControllerLink" onclick="Select('WiredControllerLink');" href="javascript:LoadModel('models/Xbox_3DVPE_WiredController_2000/Xbox360_WiredController_WithButtons_2000.dko');">Wired Controller</a></div>						  
+							<div class="item"><a id="ChatPadLink" onclick="Select('ChatPadLink');" href="javascript:LoadModel('models/Xbox_3DVPE_ChatPad/ChatPad.dko');">Chat pad</a></div>	                        
+							<div class="item"><a id="HDDVDLink" onclick="Select('HDDVDLink');" href="javascript:LoadModel('models/Xbox_3DVPE_HDDVD_1500/HD-DVD_1500.dko');">HD DVD Drive</a></div>						
+							<div class="item"><a id="NetworkAdapterNLink" onclick="Select('NetworkAdapterNLink');" href="javascript:LoadModel('models/Xbox_3DVPE_NetworkAdapterN/NetworkAdapterN.dko');">Networking Adapter N</a></div>
+							<div class="item"><a id="WirelessNetworkLink" onclick="Select('WirelessNetworkLink');" href="javascript:LoadModel('models/Xbox_3DVPE_WirelessNetworkAdapter_1500/WirelessNetworkAdapter_1500.dko');">Networking Adapter G</a></div>					  
+							<div class="item"><a id="MemoryUnitLink" onclick="Select('MemoryUnitLink');" href="javascript:LoadModel('models/Xbox_3DVPE_MemoryUnit_1500/MemoryUnit_1500.dko');">Memory unit - Original MU</a></div>
+							<div class="item"><a id="MemoryUnitUSBLink" onclick="Select('MemoryUnitUSBLink');" href="javascript:LoadModel('models/Xbox_3DVPE_MemoryUnitUSB/MemoryUnitUSB.dko');">Memory unit - Xbox 360 USB drive</a></div> 
+							<div class="item"><a id="PlayChargeLink" onclick="Select('PlayChargeLink');" href="javascript:LoadModel('models/Xbox_3DVPE_PlayandChargeKit_2000/PlayandChargeKit_2000.dko');">Play and Charge Kit</a></div>						  
+							<div class="item"><a id="RacingWheelLink" onclick="Select('RacingWheelLink');" href="javascript:LoadModel('models/Xbox_3DVPE_RacingWheel/SpeedWheel.dko');">Racing Wheel</a></div>						  
+							<div class="item"><a id="TransferCableLink" onclick="Select('TransferCableLink');" href="javascript:LoadModel('models/Xbox_3DVPE_TransferCable/TransferCable.dko');">Transfer cable - data migration kit</a></div>  
+							<div class="item"><a id="UniversalMediaLink" onclick="Select('UniversalMediaLink');" href="javascript:LoadModel('models/Xbox_3DVPE_UniversalMediaRemote_1000/UniversalMediaRemote_1000.dko');">Universal Remote</a></div>
+							<div class="item"><a id="LiveVisionLink" onclick="Select('LiveVisionLink');" href="javascript:LoadModel('models/Xbox_3DVPE_LiveVision_1200/XboxLiveVision_1200.dko');">Vision Cam</a></div>						
+							<div class="item"><a id="WirelessMicrophoneLink" onclick="Select('WirelessMicrophoneLink');" href="javascript:LoadModel('models/Xbox_3DVPE_WirelessMicrophone/WirelessMicrophone.dko');">Wireless Microphone</a></div>						
+							<div class="item"><a id="WiredHeadsetLink" onclick="Select('WiredHeadsetLink');" href="javascript:LoadModel('models/Xbox_3DVPE_WiredHeadset_1500/WiredHeadSet_1500.dko');">Wired Headset</a></div>											
+							<div class="item"><a id="WirelessHeadsetLink" onclick="Select('WirelessHeadsetLink');" href="javascript:LoadModel('models/Xbox_3DVPE_WirelessHeadset_1300/WirelessHeadset_1300.dko');">Wireless Headset</a></div>
+							<div class="item"><a id="BluetoothWirelessHeadsetLink" onclick="Select('BluetoothWirelessHeadsetLink');" href="javascript:LoadModel('models/Xbox_3DVPE_BluetoothWirelessHeadset/BluetoothWirelessHeadset.dko');">Bluetooth Wireless Headset</a></div>
+						</div>
+
+						<!-- TVs / Monitors -->
+						<div class="title">TVs / Monitors</div>
+						<div class="itemlist">
+							<div class="item"><a id="BoxCRTTVLink" onclick="Select('BoxCRTTVLink');" href="javascript:LoadModel('models/Xbox_3DVPE_BoxCRTTV/BoxCRT.dko');">Box/CRT TV</a></div>
+							<div class="item"><a id="PlasmaLCDLink" onclick="Select('PlasmaLCDLink');" href="javascript:LoadModel('models/Xbox_3DVPE_PlasmaLCD/PlasmaLCD.dko')";>Plasma/LCD</a></div>
+						</div>
+
+						<!-- Various Wall Jacks -->
+						<div class="title">Various Wall Jacks</div>
+						<div class="itemlist">
+							<div class="item"><a id="OutletLink" onclick="Select('OutletLink');" href="javascript:LoadModel('models/Xbox_3DVPE_Outlet/Outlet.dko');">Electrical Outlet (120V)</a></div>
+							<div class="item"><a id="CableJackLink" onclick="Select('CableJackLink');" href="javascript:LoadModel('models/Xbox_3DVPE_CableJack/CableJack.dko');">Cable Jack for Modem</a></div>
+						</div>
+
+					</div>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="bottom_bar">&nbsp;</td>
+                </tr>
+              </table>
+              <!-- left part table stop -->
+            </td>
+            <td width="10" align="left" valign="top">
+              <!-- Flash buttons table start -->
+              <table width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" valign="top" class="flash_buttons">
+                    <img src="images/help_button.gif" alt="Help" name="help" id="help" style="margin-left: 5px;
+                      margin-top: -90px;" onmouseover="MM_swapImage('help','','images/help_button_hover.gif',0)"
+                      onmouseout="MM_swapImgRestore()" onclick="instructions()">
+                    <div id="FlashModeButtonsDiv">
+
+                      <script language="javascript">
+                      CreateFlashControl("FlashModeButtonsDiv", "FlashModeButtons", 390, 55, "Media/ModeButtons.swf");
+                      </script>
+
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="flash_buttons_bottom_bkg">&nbsp;</td>
+                </tr>
+              </table>
+              <!-- Flash buttons table stop -->
+            </td>
+            <td align="left" valign="top" style="border-top: 1px solid #DADADA; border-right: 1px solid #DADADA;
+              border-bottom: 1px solid #DADADA; background-color: #FFFFFF">
+              <!-- right part table start -->
+              <table width="100%" style="height: 100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="main_mobilizer">
+                    <!-- mobilizer main object start -->
+                    <div id="MobilizerDiv">
+
+                      <script language="javascript">
+						CreateMobilizerControl("MobilizerDiv", "Mobilizer", 515, 630, "visibility: hidden;")
+                      </script>
+
+                    </div>
+                    <!-- mobilizer main object stop -->
+                  </td>
+                </tr>
+              </table>
+              <!-- right part table stop -->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <div id="PageDisabler" style="visibility: hidden; filter: alpha(opacity=60); position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%; background-color: white; text-align: left;">
+  </div>
+
+</body>
+  <iframe id="loadingDiv" name="loadingDiv" src="LoadingImage.html" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" style="position: absolute; left: 325px; top: 117px; width: 118; height: 106;"></iframe>
+
+</html>
+
+<script language="javascript">
+var loading = true;
+var modelLinks = new Array();
+
+// Xbox360
+modelLinks[0] = "XboxHDMILink";
+modelLinks[1] = "ConsoleCablesLink";
+modelLinks[3] = "PowerSupplyLink"
+modelLinks[4] = "HardDriveLink";
+
+// Xbox360S
+modelLinks[5] = "XboxSLink";
+modelLinks[6] = "SPowerSupplyLink"
+modelLinks[7] = "SHardDriveLink"
+
+// Kinect
+modelLinks[8] = "KinectLink";
+modelLinks[9] = "PowerAdapterLink";
+modelLinks[10] = "PowerAdapterUKLink";
+modelLinks[11] = "PowerAdapterEULink";
+modelLinks[12] = "WiFiExtLink";
+
+// Accesories
+modelLinks[13] = "RechargeableBatteryPackLink"; 
+modelLinks[14] = "AABatteryPackLink"; 
+modelLinks[15] = "QuickChargeKitLink";
+modelLinks[16] = "BigButtonControllerLink";
+modelLinks[17] = "WirelessControllerLink";
+modelLinks[18] = "WiredControllerLink";
+modelLinks[19] = "ChatPadLink";
+modelLinks[20] = "HDDVDLink";
+modelLinks[21] = "NetworkAdapterNLink";
+modelLinks[22] = "WirelessNetworkLink";
+modelLinks[23] = "MemoryUnitLink";
+modelLinks[24] = "MemoryUnitUSBLink";
+modelLinks[25] = "PlayChargeLink";
+modelLinks[26] = "RacingWheelLink";
+modelLinks[27] = "TransferCableLink";
+modelLinks[28] = "UniversalMediaLink";
+modelLinks[29] = "LiveVisionLink";
+modelLinks[30] = "WirelessMicrophoneLink";
+modelLinks[31] = "WiredHeadsetLink";
+modelLinks[32] = "WirelessHeadsetLink";
+modelLinks[33] = "BluetoothWirelessHeadsetLink";
+
+//TVs / Monitors
+modelLinks[34] = "BoxCRTTVLink";
+modelLinks[35] = "PlasmaLCDLink";
+
+//Varoius Wall Jacks
+modelLinks[36] = "OutletLink";
+modelLinks[37] = "CableJackLink";
+
+
+
+var originalColor = "";
+
+// This is used to allow the loadingdiv to get parsed
+function SetLoading()
+{
+  try
+  {  
+    document.getElementById('loadingDiv').contentWindow.SetBackColor("rgb(224,224,224)");
+    document.getElementById('loadingDiv').contentWindow.SetText("<font face='arial'><h2>Explore</h2><p>In this section, you will explore<br />the Xbox 360, Xbox 360S, Kinect and Accessories on an interactive model.<br />Select a 3D Model from the list on the left side bar.</p></font>");
+  }
+  catch(exp)
+  {
+    self.setTimeout("SetLoading()", 100);    
+  }
+}
+
+function UnSelectAll()
+{
+  // unselect everything
+  var i = 0;
+  while(modelLinks[i] != null)
+  {    
+    document.getElementById(modelLinks[i]).style.color = originalColor;  
+    i++;
+  }
+}
+
+function Select(id)
+{  
+  UnSelectAll();
+  document.getElementById(id).style.color = "red";
+}
+
+function LoadModel(model)
+{ 
+  document.getElementById('loadingDiv').style.visibility = "hidden";
+  
+  PageDisabler.style.visibility = "visible";
+  Mobilizer.attachEvent("ConfigurationLoaded", MobilizerConfigurationLoaded);
+  Mobilizer.FileName = model;
+  Mobilizer.CurrentConfiguration = "explore";
+  PageDisabler.style.visibility = "hidden";
+  
+  if(Mobilizer.FileName == "")
+  {
+    document.getElementById('loadingDiv').style.visibility = "visible";
+    UnSelectAll();
+  }
+}
+
+function Resize() 
+{
+  if(document.body.clientWidth > 820)
+  {
+    Mobilizer.width = document.body.clientWidth - 341;
+  }
+  
+  if(document.body.clientHeight > 650)
+  {
+    Mobilizer.height = document.body.clientHeight - 135;
+    document.getElementById('PageDisabler').style.height = document.body.clientHeight;
+  }
+  else
+  {
+    document.getElementById('PageDisabler').style.height = document.body.scrollHeight;
+  }
+  
+  document.getElementById('loadingdiv').style.height = Mobilizer.height;
+  document.getElementById('loadingdiv').style.width = Mobilizer.width;
+}
+
+function MobilizerConfigurationLoaded()
+{
+  try
+  {
+    // this is to check if the user hit the back button during model load.
+    // seems to be the only way to check as any action on mobilizer causes an exception
+    if(Mobilizer == null)
+    {
+    } 
+  }
+  catch(exp)
+  {   
+    return;
+  }
+  
+  if(Mobilizer.FileName != "")
+  {
+    Mobilizer.detachEvent("ConfigurationLoaded", MobilizerConfigurationLoaded);
+    document.getElementById('FlashModeButtons').detachEvent("FSCommand", ModeButtonsFSCommand);
+    document.getElementById('FlashModeButtons').attachEvent("FSCommand", ModeButtonsFSCommand);
+    //set the tool for the main mobilizer to rotate world
+    //it is done using this method because this also sets the
+    //rotateworld button the flash to become selected as well
+    FlashModeButtons.TCallLabel("/", "rotateworld");
+  }
+}
+
+function StartUp()
+{    
+  originalColor = document.getElementById(modelLinks[0]).style.color;
+  
+  InitializeModeButtons(Mobilizer);
+    
+  Resize();  
+  
+  Mobilizer.UserInterfaceVisibility = false;
+  document.getElementById('Mobilizer').style.visibility = "visible";
+   
+  SetLoading();
+  initMenu();
+  
+}
+
+</script>

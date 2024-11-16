@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="3879b1e1-de44-4252-96d4-0378d171e06d" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-09-17 12:41:09Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="PlasmaLCD.ngn" />
+</configurationsList:configurations>

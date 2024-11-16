@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="51dfe781-1667-452b-a125-4be24d749b42" name="Explore" description="Explore" version="7.0" path="51dfe781-1667-452b-a125-4be24d749b42\51dfe781-1667-452b-a125-4be24d749b42.zmd" modified="2012-11-06 13:22:39Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="xbox_faceplate_hdd_V2.ngn" />
+</configurationsList:configurations>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="f14891f1-f608-4f9d-b0cf-e16f2c5774ff" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-10 13:41:03Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="WirelessNetworkAdapter_1500.ngn" />
+</configurationsList:configurations>

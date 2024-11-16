@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="f866ad83-ce04-4aee-8556-83ecce7822c6" name="VPE3 Procedure" description="Connect Xbox to TV with HDMI" version="7.0" path="f866ad83-ce04-4aee-8556-83ecce7822c6\f866ad83-ce04-4aee-8556-83ecce7822c6.zmd" modified="2012-10-09 10:17:57Z" />
+  <configurationsList:configuration id="3dee92e2-7ea4-48b4-8cbd-bea0e3e51c8b" name="VPE29 Procedure" description="Connect a Wireless Networking Adapter For the Xbox 360 and Kinect " version="7.0" path="3dee92e2-7ea4-48b4-8cbd-bea0e3e51c8b\3dee92e2-7ea4-48b4-8cbd-bea0e3e51c8b.zmd" modified="2012-10-09 10:16:47Z" />
+  <configurationsList:configuration id="178ce568-9a34-4638-964a-e617a62cdb42" name="VPE30 Procedure" description="Connect to a PC for an ICS Connection" version="7.0" path="178ce568-9a34-4638-964a-e617a62cdb42\178ce568-9a34-4638-964a-e617a62cdb42.zmd" modified="2012-11-21 16:05:27Z" />
+  <configurationsList:configuration id="aedae494-8780-4bd8-8f1b-0de43d0e3d11" name="Default" description="Default" version="7.0" path="aedae494-8780-4bd8-8f1b-0de43d0e3d11\aedae494-8780-4bd8-8f1b-0de43d0e3d11.zmd" modified="2012-08-30 12:20:19Z" />
+  <configurationsList:configuration id="0a942d62-ee32-4373-89e5-8b8713a0d8ca" name="VPE25 Procedure" description="Setup a Direct Connection to a Modem" version="7.0" path="0a942d62-ee32-4373-89e5-8b8713a0d8ca\0a942d62-ee32-4373-89e5-8b8713a0d8ca.zmd" modified="2012-10-09 10:15:24Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox_360_Assembly_cables.ngn" />
+</configurationsList:configurations>

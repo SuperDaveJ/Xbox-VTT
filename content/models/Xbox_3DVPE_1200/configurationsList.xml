@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="59fef7e5-a2e6-423f-a492-a4d370ae77be" name="VPE1 Procedure" description="Connect XBox to Standard TV" version="7.0" path="59fef7e5-a2e6-423f-a492-a4d370ae77be\59fef7e5-a2e6-423f-a492-a4d370ae77be.zmd" modified="2012-11-21 16:15:22Z" />
+  <configurationsList:configuration id="acdc1c1d-2ab0-4a44-9774-4981d055cda8" name="VPE2 Procedure" description="Connect XBox to HDTV" version="7.0" path="acdc1c1d-2ab0-4a44-9774-4981d055cda8\acdc1c1d-2ab0-4a44-9774-4981d055cda8.zmd" modified="2012-11-21 16:15:44Z" />
+  <configurationsList:configuration id="93d69cc0-9adb-45fc-9580-0af36fd73e8a" name="VPE4 Procedure" description="Connect to digital audio" version="7.0" path="93d69cc0-9adb-45fc-9580-0af36fd73e8a\93d69cc0-9adb-45fc-9580-0af36fd73e8a.zmd" modified="2012-11-21 16:15:56Z" />
+  <configurationsList:configuration id="e25a2069-88e3-48e0-b481-af5f1cd59919" name="VPE5 Procedure" description="Connect the Console to Power" version="7.0" path="e25a2069-88e3-48e0-b481-af5f1cd59919\e25a2069-88e3-48e0-b481-af5f1cd59919.zmd" modified="2012-11-21 16:16:04Z" />
+  <configurationsList:configuration id="250f01c5-d98d-4bf2-a059-a2d7be9a18d1" name="VPE11 Procedure" description="Connect your wireless controller to your console" version="7.0" path="250f01c5-d98d-4bf2-a059-a2d7be9a18d1\250f01c5-d98d-4bf2-a059-a2d7be9a18d1.zmd" modified="2012-11-21 16:38:35Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+    <configurationsList:version>4.0.222.1</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="Xbox_3DVPE_1200.ngn" />
+</configurationsList:configurations>

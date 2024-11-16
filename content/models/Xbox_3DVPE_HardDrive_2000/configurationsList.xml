@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="3.1" />
+  <configurationsList:configuration id="7a4fa6f5-cba7-42d4-9f90-7ce370fc8ee9" name="Explore" description="Description of Default" version="3.1" path="Default\Default.zmd" modified="2006-10-25 13:43:41Z" />
+  <configurationsList:model file="HardDrive_2000.ngn" />
+</configurationsList:configurations>

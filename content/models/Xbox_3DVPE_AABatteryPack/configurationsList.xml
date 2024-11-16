@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="dc6b1d0c-b9b3-4e3e-81fc-4dee4f1cee41" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-10-10 10:27:52Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="AA Battery Pack_600.ngn" />
+</configurationsList:configurations>

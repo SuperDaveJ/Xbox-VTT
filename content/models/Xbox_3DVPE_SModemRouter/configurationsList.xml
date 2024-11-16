@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="63d8ab79-07ad-432d-80f1-e131fc1767f9" name="VPE32 Procedure" description="Setup a Router Connection" version="7.0" path="Default\Default.zmd" modified="2012-10-09 10:47:39Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="XboxS_ModemRouter.ngn" />
+</configurationsList:configurations>

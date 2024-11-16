@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<layers:Hierarchy xmlns:layers="urn:ngrain:pkm:layers">
+  <layers:metadata version="1.1" />
+  <layers:Nodes>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 1" Name="Cable_LAMA189588569" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="1">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 2" Name="Component_HD_AV_Cable_Connector_Blue_Video_Plug_LAMA1498526769" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="2">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 3" Name="Component_HD_AV_Cable_Connector_Green_Video_Plug_LAMA1489787807" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="3">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 4" Name="Component_HD_AV_Cable_Connector_Red_Audio_Plug_LAMA2123241784" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="4">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 5" Name="Component_HD_AV_Cable_Connector_Red_Video_Plug_LAMA1052567842" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="5">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 6" Name="Component_HD_AV_Cable_Connector_Switch_LAMA1709499844" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="6">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 7" Name="Component_HD_AV_Cable_Connector_Video_Plug_LAMA325817917" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="7">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 8" Name="Component_HD_AV_Cable_Connector_White_Audio_Plug_LAMA341217532" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="8">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 9" Name="Component_HD_AV_Cable_Connector_LAMA593818434" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="9">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 10" Name="Connect_Button_LAMA726957587" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="10">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 11" Name="Connect_Button_LAMA941956993" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="11">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 12" Name="Console_LAMA1156463958" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="12">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 13" Name="Digital_Audio_Cable_Plug_1_LAMA1985919067" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="13">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 14" Name="Digital_Audio_Cable_Plug_2_LAMA1675168263" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="14">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 15" Name="Digital_Audio_Cable_LAMA1209007744" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="15">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 16" Name="Electrical_Outlet_LAMA1539577944" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="16">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 17" Name="Ethernet_Connectivity_Cable_Plug_1_LAMA1299987685" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="17">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 18" Name="Ethernet_Connectivity_Cable_Plug_2_LAMA257539910" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="18">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 19" Name="Ethernet_Connectivity_Cable_LAMA1432165491" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="19">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 20" Name="HDTV_Panel" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="20">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 21" Name="Highspeed_Modem_LAMA7350079" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="21">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 22" Name="Light_Quadrant_1_LAMA933096158" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="22">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 23" Name="Light_Quadrant_2_LAMA270980180" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="23">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 24" Name="Light_Quadrant_3_LAMA520669483" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="24">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 25" Name="Light_Quadrant_4_LAMA1366754729" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="25">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 26" Name="Light_Quadrant_Controller_1_LAMA1648196463" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="26">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 27" Name="Light_Quadrant_Controller_2_LAMA2059276338" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="27">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 28" Name="Light_Quadrant_Controller_3_LAMA1546226376" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="28">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 29" Name="Light_Quadrant_Controller_4_LAMA273246019" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="29">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 30" Name="Power_Button_LAMA958052198" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="30">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 31" Name="Power_Cord_Into_Power_Supply_Box_LAMA569331671" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="31">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 32" Name="Power_Supply_Box_LAMA1864907322" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="32">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 33" Name="Wireless_Controller_LAMA1017115020" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="33">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 34" Name="Xbox_Guide_button_X_LAMA1999904397" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="34">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+    <layers:Node nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 35" Name="Xbox_Guide_button_LAMA1919258318" ngn="Xbox_3DVPE_CablePartsFam_3600.ngn" layerID="35">
+      <layers:HomeLocation>
+        <layers:Vector4 x="1" y="0" z="0" w="0" />
+        <layers:Vector4 x="0" y="1" z="0" w="0" />
+        <layers:Vector4 x="0" y="0" z="1" w="0" />
+        <layers:Vector4 x="0" y="0" z="0" w="1" />
+      </layers:HomeLocation>
+    </layers:Node>
+  </layers:Nodes>
+  <layers:LockedAssemblies>
+    <layers:LockedAssembly groupID="1C324FE9-2BD9-4860-81DC-95B4B9D613DE" Description="Main Locked Assembly">
+      <layers:LockedNodes>
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 1" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 2" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 3" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 4" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 5" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 6" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 7" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 8" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 9" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 10" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 11" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 12" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 13" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 14" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 15" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 16" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 17" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 18" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 19" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 20" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 21" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 22" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 23" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 24" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 25" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 26" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 27" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 28" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 29" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 30" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 31" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 32" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 33" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 34" />
+        <layers:LockedNode nodeID="Xbox_3DVPE_CablePartsFam_3600.ngn - 35" />
+      </layers:LockedNodes>
+    </layers:LockedAssembly>
+  </layers:LockedAssemblies>
+</layers:Hierarchy>

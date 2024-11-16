@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers:Hierarchy xmlns:layers="urn:ngrain:pkm:layers">
+  <layers:metadata version="3.1" />
+  <layers:GroupedBranches />
+  <layers:RootAnchorNode nodeID="RechargeableBatteryPack_1500.ngn - 1" />
+  <layers:Node nodeID="RechargeableBatteryPack_1500.ngn - 1" Name="Rechargeable_Battery_Pack_LAMA275494122" ngn="RechargeableBatteryPack_1500.ngn" layerID="1" />
+</layers:Hierarchy>

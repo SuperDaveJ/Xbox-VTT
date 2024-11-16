@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="d3557c9d-38d0-4876-8337-ac9da82fd226" name="VPE15 Procedure" description="Remove the Face Plate from a Xbox 360 console" version="7.0" path="d3557c9d-38d0-4876-8337-ac9da82fd226\d3557c9d-38d0-4876-8337-ac9da82fd226.zmd" modified="2012-10-09 10:38:03Z" />
+  <configurationsList:configuration id="c2d67f86-d03c-42d6-b9bb-1336c2040b44" name="VPE17 Procedure" description="Attach a hard drive to the original Xbox 360 console" version="7.0" path="c2d67f86-d03c-42d6-b9bb-1336c2040b44\c2d67f86-d03c-42d6-b9bb-1336c2040b44.zmd" modified="2012-10-09 10:42:44Z" />
+  <configurationsList:configuration id="51dfe781-1667-452b-a125-4be24d749b42" name="VPE18 Procedure" description="Remove a hard drive from the original Xbox 360 console" version="7.0" path="51dfe781-1667-452b-a125-4be24d749b42\51dfe781-1667-452b-a125-4be24d749b42.zmd" modified="2012-10-09 10:43:40Z" />
+  <configurationsList:configuration id="d6ca41a2-fbc4-4cb2-b8da-d7051783ee91" name="VPE16 Procedure" description="Attach the faceplate the Face Plate from a Xbox 360 console" version="7.0" path="d6ca41a2-fbc4-4cb2-b8da-d7051783ee91\d6ca41a2-fbc4-4cb2-b8da-d7051783ee91.zmd" modified="2012-10-09 10:39:32Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="xbox_faceplate_hdd_V2.ngn" />
+</configurationsList:configurations>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<lama:LamaMapping xmlns:lama="urn:ngrain:ps:lama">
+  <lama:metadata version="4.0" />
+  <lama:mappings>
+    <lama:mapping layerID="15" LamaID="803407847" />
+    <lama:mapping layerID="41" LamaID="1366291749" />
+    <lama:mapping layerID="20" LamaID="1432165491" />
+    <lama:mapping layerID="30" LamaID="778362994" />
+    <lama:mapping layerID="10" LamaID="459036432" />
+    <lama:mapping layerID="35" LamaID="1982409110" />
+    <lama:mapping layerID="40" LamaID="120695430" />
+    <lama:mapping layerID="28" LamaID="1243599041" />
+    <lama:mapping layerID="38" LamaID="1780022844" />
+    <lama:mapping layerID="45" LamaID="1862413418" />
+    <lama:mapping layerID="48" LamaID="1011066873" />
+    <lama:mapping layerID="24" LamaID="2065546569" />
+    <lama:mapping layerID="14" LamaID="1811889831" />
+    <lama:mapping layerID="44" LamaID="524547715" />
+    <lama:mapping layerID="8" LamaID="339517014" />
+    <lama:mapping layerID="9" LamaID="1191460917" />
+    <lama:mapping layerID="2" LamaID="1745114241" />
+    <lama:mapping layerID="3" LamaID="331381388" />
+    <lama:mapping layerID="6" LamaID="1857133225" />
+    <lama:mapping layerID="7" LamaID="1732259031" />
+    <lama:mapping layerID="4" LamaID="369267779" />
+    <lama:mapping layerID="5" LamaID="463801146" />
+    <lama:mapping layerID="17" LamaID="667188559" />
+    <lama:mapping layerID="23" LamaID="855733808" />
+    <lama:mapping layerID="33" LamaID="1400121442" />
+    <lama:mapping layerID="13" LamaID="1655371548" />
+    <lama:mapping layerID="43" LamaID="1789953996" />
+    <lama:mapping layerID="29" LamaID="268599806" />
+    <lama:mapping layerID="39" LamaID="1775187904" />
+    <lama:mapping layerID="19" LamaID="1299987685" />
+    <lama:mapping layerID="32" LamaID="1660162161" />
+    <lama:mapping layerID="37" LamaID="1223628917" />
+    <lama:mapping layerID="42" LamaID="1856659123" />
+    <lama:mapping layerID="47" LamaID="1820912714" />
+    <lama:mapping layerID="36" LamaID="1024523723" />
+    <lama:mapping layerID="16" LamaID="1678625170" />
+    <lama:mapping layerID="26" LamaID="388627510" />
+    <lama:mapping layerID="25" LamaID="383095456" />
+    <lama:mapping layerID="21" LamaID="1778289285" />
+  </lama:mappings>
+</lama:LamaMapping>

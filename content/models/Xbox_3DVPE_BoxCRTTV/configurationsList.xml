@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configurationsList:configurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configurationsList="urn:ngrain:pkm:configurationsList">
+  <configurationsList:metadata version="7.0" />
+  <configurationsList:configuration id="777d39b8-5212-44af-8bc5-4b398065f31f" name="Explore" description="Description of Default" version="7.0" path="Default\Default.zmd" modified="2012-09-17 13:25:02Z" />
+  <configurationsList:saveHistory>
+    <configurationsList:version>5.0</configurationsList:version>
+  </configurationsList:saveHistory>
+  <configurationsList:model file="BoxCRT.ngn" />
+</configurationsList:configurations>
